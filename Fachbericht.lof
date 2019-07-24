@@ -11,7 +11,25 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {8.1.1}{\ignorespaces Arduino Mega Board \cite [S.1]{arduinoMega}\relax }}{11}{figure.8.1}% 
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {9.1.1}{\ignorespaces \textbf {DS3231} mit seinen Anschl\IeC {\"u}ssen \cite {DS3231DS}.\relax }}{13}{figure.caption.4}% 
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {10.1.1}{\ignorespaces Darstellung des Kippl\IeC {\"o}ffelprinzips\relax }}{16}{figure.caption.8}% 
+\contentsline {figure}{\numberline {10.1.2}{\ignorespaces Selbsterstellter Kippl\IeC {\"o}ffel.\relax }}{17}{figure.caption.10}% 
+\contentsline {figure}{\numberline {10.1.3}{\ignorespaces Selbsterstelltes Ger\IeC {\"u}st.\relax }}{18}{figure.caption.11}% 
+\contentsline {figure}{\numberline {10.1.4}{\ignorespaces Schaltkreis zur detektion der Kippbewegung.\relax }}{19}{figure.caption.12}% 
+\contentsline {figure}{\numberline {10.1.5}{\ignorespaces Das Ombrometer\relax }}{19}{figure.caption.13}% 
+\contentsline {figure}{\numberline {10.1.6}{\ignorespaces Anemometer \cite {AmazonAnemometer}\relax }}{21}{figure.10.6}% 
+\contentsline {figure}{\numberline {10.1.7}{\ignorespaces RJ-11 Stecker\relax }}{21}{figure.10.7}% 
+\contentsline {figure}{\numberline {10.1.8}{\ignorespaces Beschaltung des Ausgangs des Anemometers.\relax }}{21}{figure.10.8}% 
+\contentsline {figure}{\numberline {10.1.9}{\ignorespaces Ausgangssignal $V_{out}$\relax }}{21}{figure.10.9}% 
+\contentsline {figure}{\numberline {10.1.10}{\ignorespaces Interne Schaltung \cite {ADSkeineAngabe}\relax }}{22}{figure.10.10}% 
+\contentsline {figure}{\numberline {10.1.11}{\ignorespaces Spannungsteiler mit $R=10k\Omega $ \cite {ADSkeineAngabe}\relax }}{23}{figure.10.11}% 
+\contentsline {figure}{\numberline {10.1.12}{\ignorespaces Windrichtungsgeber von MISOL \cite {windrichtungsgeber}\relax }}{23}{figure.10.12}% 
+\contentsline {figure}{\numberline {10.1.13}{\ignorespaces BME280 \cite {Bosch2019}\relax }}{23}{figure.10.13}% 
+\contentsline {figure}{\numberline {10.2.1}{\ignorespaces TSL2561 Breakout Board von Adafruit \cite {TSL2561Adafruit}\relax }}{25}{figure.caption.22}% 
+\contentsline {figure}{\numberline {10.3.1}{\ignorespaces BME280 Breakout Board von Adafruit \cite {BME_Breakout}\relax }}{26}{figure.caption.24}% 
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
