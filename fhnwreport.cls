@@ -22,7 +22,7 @@
 %% in the same archive or directory.)
 \NeedsTeXFormat{LaTeX2e}[1995/12/01]
 \ProvidesClass{fhnwreport}[2018/05/06 v2.5 PDF-LaTeX class for FHNW reports]
-\LoadClass{report}
+\LoadClass{scrreprt}
 \RequirePackage{geometry}
 \RequirePackage{calc}
 \RequirePackage{times}
