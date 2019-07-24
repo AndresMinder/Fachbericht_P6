@@ -4,9 +4,9 @@
 \input{header}			                %loads all packages, definitions and settings	
 
 									
-\title{\Huge{\textbf{Fachbericht}}\\}          %Project Title
-\author{\huge{Wetterstation mit Solar Energie}}          %Document Type => Technical Report, ...
-\date{Windisch, \today}             %Place and Date
+\title{\Huge{\textbf{Wetterstation mit Solar Energie}}\\}          %Project Title
+\author{\huge{Bachelor Diplomarbeit 2019}}          %Document Type => Technical Report, ...
+\date{Brugg/Windisch, \today}             %Place and Date
 
 
 \begin{document}
@@ -27,12 +27,13 @@
 \renewcommand\arraystretch{2}
 \begin{center}
 \begin{tabular}{p{4cm} l}
-Hochschule                 &    Hochschule für Technik - FHNW\\
-Studiengang                &    Elektro- und Informationstechnik\\
-Autoren  		           & 	Mischa Knupfer, Andres Minder\\
-Betreuer                   &    Prof. Dr. Taoufik Nouri\\
-Auftraggeber               &    Prof. Dr. Taoufik Nouri\\
-Version                    &    2.1 %Normally not used!
+\textbf{Hochschule}				&    Hochschule für Technik - FHNW\\
+\textbf{Studiengang}			&    Elektro- und Informationstechnik\\
+\textbf{Autoren}				& 	Mischa Knupfer, Andres Minder\\
+\textbf{Auftraggeber}			&    Prof. Dr. Taoufik Nouri\\
+\textbf{Experte}				&	Patrick Strittmatter\\
+\textbf{Betreuer}				&    Prof. Dr. Taoufik Nouri\\
+\textbf{Version}				&    2.1 %Normally not used!
 \end{tabular}
 \end{center}
 }
@@ -42,24 +43,31 @@ Version                    &    2.1 %Normally not used!
 %%---ABSTRACT----------------------------------------------------------------------------
 \selectlanguage{english}				%ngerman or english
 \thispagestyle{empty}
+\pagenumbering{Roman}
 \include{sections/abstract}
 
 %%---TABLE OF CONTENTS-------------------------------------------------------------------
-\pagenumbering{Roman}		
 \selectlanguage{ngerman}				%ngerman or english
 \tableofcontents
 \clearpage
 
 %%---TEXT--------------------------------------------------------------------------------
 \pagenumbering{arabic}
+
+\part{Einleitung}
+\label{part:EinleitenderTeil}
 \include{sections/einleitend/Einleitung}
 \include{sections/einleitend/Auftragsbeschreibung}
 \include{sections/einleitend/Ziele}
 \include{sections/einleitend/Konzept}
 
-\include{sections/firmware/Interfaces}
-\include{sections/firmware/Firmware}
+\part{Firmware}
+\label{part:Firmware}
+\input{sections/firmware/Interfaces/Interfaces}
+\input{sections/firmware/Firmware/Firmware}
 
+\part{Hardware}
+\label{chap:Hardware}
 \include{sections/hardware/MCU}
 \include{sections/hardware/RTC}
 \include{sections/hardware/Sensoren}
@@ -68,15 +76,17 @@ Version                    &    2.1 %Normally not used!
 \include{sections/hardware/Energieversorgung}
 \include{sections/hardware/PCB}
 
+\part{Abschluss}
+\label{part:AbschliessenderTeil}
 \include{sections/abschliessend/Konzeptvalidierung}
 \include{sections/abschliessend/Schluss}
-
 
 \newpage
 
 
 \include{sections/Authentizitaetserklaerung}
 %%---BIBLIOGRAPHY------------------------------------------------------------------------
+\part{Referenzen}
 {\sloppypar
 \printbibliography[heading=bibintoc]
 \label{sec:lit}
