@@ -56,35 +56,36 @@
 
 \part{Einleitung}
 \label{part:EinleitenderTeil}
-\include{sections/einleitend/Einleitung}
-\include{sections/einleitend/Auftragsbeschreibung}
-\include{sections/einleitend/Ziele}
-\include{sections/einleitend/Konzept}
+\include{parts/einleitung/Einleitung}
+\include{parts/einleitung/Auftragsbeschreibung}
+\include{parts/einleitung/Ziele}
+\include{parts/einleitung/Konzept}
 
 \part{Firmware}
 \label{part:Firmware}
-\input{sections/firmware/Interfaces/Interfaces}
-\input{sections/firmware/Firmware/Firmware}
+\include{parts/firmware/chapters/Interfaces/Interfaces}
+\include{parts/firmware/chapters/Firmware/Firmware}
 
 \part{Hardware}
 \label{chap:Hardware}
-\include{sections/hardware/MCU}
-\include{sections/hardware/RTC}
-\include{sections/hardware/Sensoren}
-\include{sections/hardware/Datenspeicherung}
-\include{sections/hardware/Kommunikationsmodule}
-\include{sections/hardware/Energieversorgung}
-\include{sections/hardware/PCB}
+\include{parts/hardware/MCU}
+\include{parts/hardware/MCU}
+\include{parts/hardware/RTC}
+\include{parts/hardware/Sensoren}
+\include{parts/hardware/Datenspeicherung}
+\include{parts/hardware/Kommunikationsmodule}
+\include{parts/hardware/Energieversorgung}
+\include{parts/hardware/PCB}
 
 \part{Abschluss}
 \label{part:AbschliessenderTeil}
-\include{sections/abschliessend/Konzeptvalidierung}
-\include{sections/abschliessend/Schluss}
+\include{parts/abschluss/Konzeptvalidierung}
+\include{parts/abschluss/Schluss}
 
 \newpage
 
 
-\include{sections/Authentizitaetserklaerung}
+\include{parts/Authentizitaetserklaerung}
 %%---BIBLIOGRAPHY------------------------------------------------------------------------
 \part{Referenzen}
 {\sloppypar
@@ -97,7 +98,7 @@
 \listoftables
 \listoffigures
 %%---APPENDIX----------------------------------------------------------------------------
-\include{sections/appendix}
+\include{parts/appendix}
 
 %%---NOTES for DEBUG---------------------------------------------------------------------
 \ifdraft{%Do this only if mode=draft
