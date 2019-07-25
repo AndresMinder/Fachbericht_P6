@@ -24,18 +24,24 @@
 \contentsline {subsection}{\numberline {10.1.2}Anemometer}{21}{subsection.10.1.2}% 
 \contentsline {subsection}{\numberline {10.1.3}Windrichtungsgeber}{22}{subsection.10.1.3}% 
 \contentsline {subsection}{\numberline {10.1.4}BME280}{23}{subsection.10.1.4}% 
-\contentsline {section}{\numberline {10.2}Sensoren - Bachelor-Thesis}{25}{section.10.2}% 
+\contentsline {section}{\numberline {10.2}Erg\IeC {\"a}nzungen aus der Bachelor-Thesis}{25}{section.10.2}% 
 \contentsline {subsection}{\numberline {10.2.1}Lichtintensit\IeC {\"a}tssensor}{25}{subsection.10.2.1}% 
-\contentsline {section}{\numberline {10.3}BME280 - Erg\IeC {\"a}nzung aus der Bachelor-Thesis}{26}{section.10.3}% 
+\contentsline {subsection}{\numberline {10.2.2}BME280}{26}{subsection.10.2.2}% 
 \contentsline {chapter}{\numberline {11}Datenspeicherung}{27}{chapter.11}% 
-\contentsline {chapter}{\numberline {12}Kommunikationsmodule}{28}{chapter.12}% 
-\contentsline {chapter}{\numberline {13}Energieversorgung}{29}{chapter.13}% 
-\contentsline {chapter}{\numberline {14}PCB}{30}{chapter.14}% 
-\contentsline {part}{\numberline {IV}Abschluss}{31}{part.4}% 
-\contentsline {chapter}{\numberline {15}Konzeptvalidierung}{32}{chapter.15}% 
-\contentsline {chapter}{\numberline {16}Schluss}{33}{chapter.16}% 
-\contentsline {chapter}{\numberline {17}Authentizit\IeC {\"a}tserkl\IeC {\"a}rung}{34}{chapter.17}% 
-\contentsline {part}{\numberline {V}Referenzen}{35}{part.5}% 
-\contentsline {chapter}{\nonumberline Literatur}{36}{chapter*.25}% 
-\contentsline {chapter}{Tabellenverzeichnis}{37}{chapter*.26}% 
-\contentsline {chapter}{Abbildungsverzeichnis}{38}{chapter*.27}% 
+\contentsline {section}{\numberline {11.1}Datenspeicherung - Projekt 5}{27}{section.11.1}% 
+\contentsline {subsection}{\numberline {11.1.1}$\mu $SD-Karte}{27}{subsection.11.1.1}% 
+\contentsline {section}{\numberline {11.2}Erg\IeC {\"a}nzungen aus der Bachelor-Thesis}{28}{section.11.2}% 
+\contentsline {chapter}{\numberline {12}Kommunikationsmodule}{29}{chapter.12}% 
+\contentsline {section}{\numberline {12.1}SIM808}{29}{section.12.1}% 
+\contentsline {chapter}{\numberline {13}Energieversorgung}{30}{chapter.13}% 
+\contentsline {section}{\numberline {13.1}Energiekonzept}{30}{section.13.1}% 
+\contentsline {section}{\numberline {13.2}Berechnung der Akkukapazit\IeC {\"a}t}{31}{section.13.2}% 
+\contentsline {chapter}{\numberline {14}PCB}{33}{chapter.14}% 
+\contentsline {part}{\numberline {IV}Abschluss}{34}{part.4}% 
+\contentsline {chapter}{\numberline {15}Konzeptvalidierung}{35}{chapter.15}% 
+\contentsline {chapter}{\numberline {16}Schluss}{36}{chapter.16}% 
+\contentsline {chapter}{\numberline {17}Authentizit\IeC {\"a}tserkl\IeC {\"a}rung}{37}{chapter.17}% 
+\contentsline {part}{\numberline {V}Referenzen}{38}{part.5}% 
+\contentsline {chapter}{\nonumberline Literatur}{39}{chapter*.28}% 
+\contentsline {chapter}{Tabellenverzeichnis}{41}{chapter*.29}% 
+\contentsline {chapter}{Abbildungsverzeichnis}{42}{chapter*.30}% 

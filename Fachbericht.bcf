@@ -2034,6 +2034,25 @@
     <bcf:citekey order="36">TSL2561</bcf:citekey>
     <bcf:citekey order="37">BME_Breakout</bcf:citekey>
     <bcf:citekey order="38">BME_Breakout</bcf:citekey>
+    <bcf:citekey order="39">musdkarte</bcf:citekey>
+    <bcf:citekey order="40">musdkarte</bcf:citekey>
+    <bcf:citekey order="41">muSDspez</bcf:citekey>
+    <bcf:citekey order="42">SIM808</bcf:citekey>
+    <bcf:citekey order="43">SIM808</bcf:citekey>
+    <bcf:citekey order="44">SIM808</bcf:citekey>
+    <bcf:citekey order="45">SIM808</bcf:citekey>
+    <bcf:citekey order="46">SIM808</bcf:citekey>
+    <bcf:citekey order="47">MCP73871</bcf:citekey>
+    <bcf:citekey order="48">LM1117</bcf:citekey>
+    <bcf:citekey order="49">SIM808</bcf:citekey>
+    <bcf:citekey order="50">ADSkeineAngabe</bcf:citekey>
+    <bcf:citekey order="51">74HC125</bcf:citekey>
+    <bcf:citekey order="52">arduinoMega</bcf:citekey>
+    <bcf:citekey order="53">FTDI</bcf:citekey>
+    <bcf:citekey order="54">74HC4050</bcf:citekey>
+    <bcf:citekey order="55">Bosch2019</bcf:citekey>
+    <bcf:citekey order="56">TSL2561</bcf:citekey>
+    <bcf:citekey order="57">DS3231DS</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

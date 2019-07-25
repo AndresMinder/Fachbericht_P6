@@ -79,10 +79,10 @@
       \field{dateera}{ce}
       \field{urldateera}{ce}
       \verb{urlraw}
-      \verb https://www.maximintegrated.com/en/products/digital/real-time-clocks/DS3231.html
+      \verb https://web.wpi.edu/Pubs/E-project/Available/E-project-010908-124414/unrestricted/DS3231-DS3231S.pdf
       \endverb
       \verb{url}
-      \verb https://www.maximintegrated.com/en/products/digital/real-time-clocks/DS3231.html
+      \verb https://web.wpi.edu/Pubs/E-project/Available/E-project-010908-124414/unrestricted/DS3231-DS3231S.pdf
       \endverb
       \warn{\item Overwriting field 'year' with year value from field 'date' for entry 'DS3231DS'}
     \endentry
@@ -301,6 +301,246 @@
       \endverb
       \verb{url}
       \verb https://www.adafruit.com/product/2652
+      \endverb
+    \endentry
+    \entry{musdkarte}{online}{}
+      \name{author}{1}{}{%
+        {{hash=c49b30a6981a942690541959d4048de1}{%
+           family={SanDisk},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{c49b30a6981a942690541959d4048de1}
+      \strng{fullhash}{c49b30a6981a942690541959d4048de1}
+      \strng{bibnamehash}{c49b30a6981a942690541959d4048de1}
+      \strng{authorbibnamehash}{c49b30a6981a942690541959d4048de1}
+      \strng{authornamehash}{c49b30a6981a942690541959d4048de1}
+      \strng{authorfullhash}{c49b30a6981a942690541959d4048de1}
+      \field{extraname}{1}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{SanDisk microSDHC Speicherkarte}}
+      \field{urlday}{27}
+      \field{urlmonth}{11}
+      \field{urlyear}{2018}
+      \field{year}{keine Angabe}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.sandisk.de/home/memory-cards/microsd-cards/sandisk-microsd
+      \endverb
+      \verb{url}
+      \verb https://www.sandisk.de/home/memory-cards/microsd-cards/sandisk-microsd
+      \endverb
+    \endentry
+    \entry{muSDspez}{online}{}
+      \name{author}{1}{}{%
+        {{hash=c49b30a6981a942690541959d4048de1}{%
+           family={SanDisk},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{c49b30a6981a942690541959d4048de1}
+      \strng{fullhash}{c49b30a6981a942690541959d4048de1}
+      \strng{bibnamehash}{c49b30a6981a942690541959d4048de1}
+      \strng{authorbibnamehash}{c49b30a6981a942690541959d4048de1}
+      \strng{authornamehash}{c49b30a6981a942690541959d4048de1}
+      \strng{authorfullhash}{c49b30a6981a942690541959d4048de1}
+      \field{extraname}{2}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{SD/SDHC/SDXC Spezifikationen und Kompatibilitäten}}
+      \field{urlday}{27}
+      \field{urlmonth}{11}
+      \field{urlyear}{2018}
+      \field{year}{keine Angabe}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://kb-de.sandisk.com/app/answers/detail/a_id/8317/~/sd%2Fsdhc%2Fsdxc-spezifikationen-und-kompatibilit%C3%A4ten
+      \endverb
+      \verb{url}
+      \verb https://kb-de.sandisk.com/app/answers/detail/a_id/8317/~/sd%2Fsdhc%2Fsdxc-spezifikationen-und-kompatibilit%C3%A4ten
+      \endverb
+    \endentry
+    \entry{SIM808}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=d67a90f698b5ab192347633b54846e66}{%
+           family={SIMCom},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{d67a90f698b5ab192347633b54846e66}
+      \strng{fullhash}{d67a90f698b5ab192347633b54846e66}
+      \strng{bibnamehash}{d67a90f698b5ab192347633b54846e66}
+      \strng{authorbibnamehash}{d67a90f698b5ab192347633b54846e66}
+      \strng{authornamehash}{d67a90f698b5ab192347633b54846e66}
+      \strng{authorfullhash}{d67a90f698b5ab192347633b54846e66}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{SIM808 Hardware Design V1.00}}
+      \field{type}{techreport}
+      \field{urlday}{24}
+      \field{urlmonth}{7}
+      \field{urlyear}{2019}
+      \field{year}{2014}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://cdn-shop.adafruit.com/datasheets/SIM808_Hardware+Design_V1.00.pdf
+      \endverb
+      \verb{url}
+      \verb https://cdn-shop.adafruit.com/datasheets/SIM808_Hardware+Design_V1.00.pdf
+      \endverb
+    \endentry
+    \entry{MCP73871}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=f7962ad60e8c8ec26481358db76f7f6a}{%
+           family={Microchip},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{f7962ad60e8c8ec26481358db76f7f6a}
+      \strng{fullhash}{f7962ad60e8c8ec26481358db76f7f6a}
+      \strng{bibnamehash}{f7962ad60e8c8ec26481358db76f7f6a}
+      \strng{authorbibnamehash}{f7962ad60e8c8ec26481358db76f7f6a}
+      \strng{authornamehash}{f7962ad60e8c8ec26481358db76f7f6a}
+      \strng{authorfullhash}{f7962ad60e8c8ec26481358db76f7f6a}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Stand-Alone System Load Sharing and Li-Ion/Li-Polymer battery Charge Management Controller}}
+      \field{type}{techreport}
+      \field{urlday}{24}
+      \field{urlmonth}{7}
+      \field{urlyear}{2019}
+      \field{year}{2013}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb http://ww1.microchip.com/downloads/en/DeviceDoc/20002090C.pdf
+      \endverb
+      \verb{url}
+      \verb http://ww1.microchip.com/downloads/en/DeviceDoc/20002090C.pdf
+      \endverb
+    \endentry
+    \entry{LM1117}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=67e54b1ee931f3f4bddfefa5fbde5fd8}{%
+           family={{Texas Instruments}},
+           familyi={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{67e54b1ee931f3f4bddfefa5fbde5fd8}
+      \strng{fullhash}{67e54b1ee931f3f4bddfefa5fbde5fd8}
+      \strng{bibnamehash}{67e54b1ee931f3f4bddfefa5fbde5fd8}
+      \strng{authorbibnamehash}{67e54b1ee931f3f4bddfefa5fbde5fd8}
+      \strng{authornamehash}{67e54b1ee931f3f4bddfefa5fbde5fd8}
+      \strng{authorfullhash}{67e54b1ee931f3f4bddfefa5fbde5fd8}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{LM1117 800-mA Low-Dropout Linear Regulator}}
+      \field{type}{techreport}
+      \field{urlday}{24}
+      \field{urlmonth}{7}
+      \field{urlyear}{2019}
+      \field{year}{2016}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb http://www.ti.com/lit/ds/symlink/lm1117.pdf
+      \endverb
+      \verb{url}
+      \verb http://www.ti.com/lit/ds/symlink/lm1117.pdf
+      \endverb
+    \endentry
+    \entry{74HC125}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=1a84243b72636ea242cf7f6816346dd9}{%
+           family={{DIODES Incorporated}},
+           familyi={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{1a84243b72636ea242cf7f6816346dd9}
+      \strng{fullhash}{1a84243b72636ea242cf7f6816346dd9}
+      \strng{bibnamehash}{1a84243b72636ea242cf7f6816346dd9}
+      \strng{authorbibnamehash}{1a84243b72636ea242cf7f6816346dd9}
+      \strng{authornamehash}{1a84243b72636ea242cf7f6816346dd9}
+      \strng{authorfullhash}{1a84243b72636ea242cf7f6816346dd9}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{74HC125}}
+      \field{type}{techreport}
+      \field{urlday}{24}
+      \field{urlmonth}{7}
+      \field{urlyear}{2019}
+      \field{year}{2013}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.diodes.com/assets/Datasheets/74HC125.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.diodes.com/assets/Datasheets/74HC125.pdf
+      \endverb
+    \endentry
+    \entry{FTDI}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=159f4f7152eeb676efbfcb2c7627f8dc}{%
+           family={{FTDI Chip}},
+           familyi={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{159f4f7152eeb676efbfcb2c7627f8dc}
+      \strng{fullhash}{159f4f7152eeb676efbfcb2c7627f8dc}
+      \strng{bibnamehash}{159f4f7152eeb676efbfcb2c7627f8dc}
+      \strng{authorbibnamehash}{159f4f7152eeb676efbfcb2c7627f8dc}
+      \strng{authornamehash}{159f4f7152eeb676efbfcb2c7627f8dc}
+      \strng{authorfullhash}{159f4f7152eeb676efbfcb2c7627f8dc}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Future Technology Devices International Ltd. FT231X (USB to FULL HANDSHAKE UART IC)}}
+      \field{type}{techreport}
+      \field{urlday}{24}
+      \field{urlmonth}{7}
+      \field{urlyear}{2019}
+      \field{year}{2013}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT231X.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT231X.pdf
+      \endverb
+    \endentry
+    \entry{74HC4050}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=ed12702f830dd2b0fabe23c1d36e1c6d}{%
+           family={{Nexperia}},
+           familyi={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{ed12702f830dd2b0fabe23c1d36e1c6d}
+      \strng{fullhash}{ed12702f830dd2b0fabe23c1d36e1c6d}
+      \strng{bibnamehash}{ed12702f830dd2b0fabe23c1d36e1c6d}
+      \strng{authorbibnamehash}{ed12702f830dd2b0fabe23c1d36e1c6d}
+      \strng{authornamehash}{ed12702f830dd2b0fabe23c1d36e1c6d}
+      \strng{authorfullhash}{ed12702f830dd2b0fabe23c1d36e1c6d}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{74HC4050 Hex non-inverting HIGH-to-LOW level shifter}}
+      \field{type}{techreport}
+      \field{urlday}{24}
+      \field{urlmonth}{7}
+      \field{urlyear}{2019}
+      \field{year}{2016}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.mouser.ch/datasheet/2/916/74HC4050-1598370.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.mouser.ch/datasheet/2/916/74HC4050-1598370.pdf
       \endverb
     \endentry
   \enddatalist

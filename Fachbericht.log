@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.11)  24 JUL 2019 21:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.11)  25 JUL 2019 21:53
 entering extended mode
 **./Fachbericht.tex
 (Fachbericht.tex
@@ -2385,7 +2385,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--10
 
  []
 
-<graphics/MCU/arduino_mega.png, id=182, 640.64343pt x 321.45094pt>
+<graphics/MCU/arduino_mega.png, id=195, 640.64343pt x 321.45094pt>
 File: graphics/MCU/arduino_mega.png Graphic file (type png)
 <use graphics/MCU/arduino_mega.png>
 Package pdftex.def Info: graphics/MCU/arduino_mega.png  used on input line 14.
@@ -2417,7 +2417,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
 LaTeX Warning: Reference `subsubsec:I2C' on page 13 undefined on input line 6.
 
-<graphics/DS3231.png, id=202, 178.41656pt x 197.23688pt>
+<graphics/DS3231.png, id=215, 178.41656pt x 197.23688pt>
 File: graphics/DS3231.png Graphic file (type png)
 <use graphics/DS3231.png>
 Package pdftex.def Info: graphics/DS3231.png  used on input line 10.
@@ -2462,7 +2462,7 @@ Class scrreprt Warning: incompatible usage of \@ssect detected.
 (scrreprt)              This could result in several error messages on input li
 ne 10.
 
-<graphics/Kipploeffel.png, id=225, 564.1075pt x 363.3575pt>
+<graphics/Kipploeffel.png, id=237, 564.1075pt x 363.3575pt>
 File: graphics/Kipploeffel.png Graphic file (type png)
 <use graphics/Kipploeffel.png>
 Package pdftex.def Info: graphics/Kipploeffel.png  used on input line 15.
@@ -2483,7 +2483,7 @@ Class scrreprt Warning: incompatible usage of \@ssect detected.
 (scrreprt)              This could result in several error messages on input li
 ne 23.
 
-<graphics/Etappe1.jpg, id=234, 3130.69624pt x 1898.09125pt>
+<graphics/Etappe1.jpg, id=246, 3130.69624pt x 1898.09125pt>
 File: graphics/Etappe1.jpg Graphic file (type jpg)
 <use graphics/Etappe1.jpg>
 Package pdftex.def Info: graphics/Etappe1.jpg  used on input line 34.
@@ -2492,7 +2492,7 @@ Package pdftex.def Info: graphics/Etappe1.jpg  used on input line 34.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [16 <./graphics/Kipploeffel.png>]
-<graphics/Etappe2.jpg, id=244, 3434.8325pt x 2650.90375pt>
+<graphics/Etappe2.jpg, id=256, 3434.8325pt x 2650.90375pt>
 File: graphics/Etappe2.jpg Graphic file (type jpg)
 <use graphics/Etappe2.jpg>
 Package pdftex.def Info: graphics/Etappe2.jpg  used on input line 48.
@@ -2502,7 +2502,7 @@ Package pdftex.def Info: graphics/Etappe2.jpg  used on input line 48.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [17 <./graphics/Etappe1.jpg>]
-<graphics/KippSchalt.jpg, id=251, 2007.5pt x 1971.365pt>
+<graphics/KippSchalt.jpg, id=263, 2007.5pt x 1971.365pt>
 File: graphics/KippSchalt.jpg Graphic file (type jpg)
 <use graphics/KippSchalt.jpg>
 Package pdftex.def Info: graphics/KippSchalt.jpg  used on input line 66.
@@ -2516,7 +2516,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 74--76
 
  []
 
-<graphics/ombrometer/IMG_20190118_110027.jpg, id=259, 3982.88pt x 2987.16pt>
+<graphics/ombrometer/IMG_20190118_110027.jpg, id=271, 3982.88pt x 2987.16pt>
 File: graphics/ombrometer/IMG_20190118_110027.jpg Graphic file (type jpg)
 <use graphics/ombrometer/IMG_20190118_110027.jpg>
 Package pdftex.def Info: graphics/ombrometer/IMG_20190118_110027.jpg  used on i
@@ -2548,7 +2548,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 107--109
 
  []
 
-<graphics/Anemometer/anemometer.png, id=269, 198.7425pt x 138.5175pt>
+<graphics/Anemometer/anemometer.png, id=281, 198.7425pt x 138.5175pt>
 File: graphics/Anemometer/anemometer.png Graphic file (type png)
 <use graphics/Anemometer/anemometer.png>
 Package pdftex.def Info: graphics/Anemometer/anemometer.png  used on input line
@@ -2559,7 +2559,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 113.
 See the caption package documentation for explanation.
 
-<graphics/Anemometer/rj_11_anschlussstecker.png, id=272, 330.48468pt x 232.6190
+<graphics/Anemometer/rj_11_anschlussstecker.png, id=284, 330.48468pt x 232.6190
 6pt>
 File: graphics/Anemometer/rj_11_anschlussstecker.png Graphic file (type png)
 <use graphics/Anemometer/rj_11_anschlussstecker.png>
@@ -2571,7 +2571,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 117.
 See the caption package documentation for explanation.
 
-<graphics/Anemometer/schaltung_anemometer.png, id=273, 483.30562pt x 219.06844p
+<graphics/Anemometer/schaltung_anemometer.png, id=285, 483.30562pt x 219.06844p
 t>
 File: graphics/Anemometer/schaltung_anemometer.png Graphic file (type png)
 <use graphics/Anemometer/schaltung_anemometer.png>
@@ -2593,7 +2593,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 121--121
 \T1/lmr/m/n/10 Aus-gangs des
  []
 
-<graphics/Anemometer/oszilloskop_anenometer_puls.png, id=274, 674.52pt x 516.42
+<graphics/Anemometer/oszilloskop_anenometer_puls.png, id=286, 674.52pt x 516.42
 938pt>
 File: graphics/Anemometer/oszilloskop_anenometer_puls.png Graphic file (type pn
 g)
@@ -2629,7 +2629,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 135--136
 
  []
 
-<graphics/windrichtungsgeber/interne_schaltung.PNG, id=299, 438.13687pt x 534.4
+<graphics/windrichtungsgeber/interne_schaltung.PNG, id=311, 438.13687pt x 534.4
 9687pt>
 File: graphics/windrichtungsgeber/interne_schaltung.PNG Graphic file (type png)
 
@@ -2648,7 +2648,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 187--188
  []
 
 [22 <./graphics/windrichtungsgeber/interne_schaltung.PNG>]
-<graphics/windrichtungsgeber/aeussere_beschaltung.PNG, id=317, 130.98938pt x 15
+<graphics/windrichtungsgeber/aeussere_beschaltung.PNG, id=329, 130.98938pt x 15
 7.33781pt>
 File: graphics/windrichtungsgeber/aeussere_beschaltung.PNG Graphic file (type p
 ng)
@@ -2667,7 +2667,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 195--195
 [][]|[]\T1/lmr/m/n/10 Spannungsteiler mit
  []
 
-<graphics/windrichtungsgeber/windrichtungsgeber.PNG, id=320, 475.7775pt x 316.1
+<graphics/windrichtungsgeber/windrichtungsgeber.PNG, id=332, 475.7775pt x 316.1
 8124pt>
 File: graphics/windrichtungsgeber/windrichtungsgeber.PNG Graphic file (type png
 )
@@ -2706,7 +2706,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 229--230
 
  []
 
-<graphics/bme280/bme280.PNG, id=324, 301.125pt x 230.36063pt>
+<graphics/bme280/bme280.PNG, id=336, 301.125pt x 230.36063pt>
 File: graphics/bme280/bme280.PNG Graphic file (type png)
 <use graphics/bme280/bme280.PNG>
 Package pdftex.def Info: graphics/bme280/bme280.PNG  used on input line 233.
@@ -2747,7 +2747,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 342--343
 
  []
 
-<graphics/TSL2561/TSL2561_Breakout.JPG, id=363, 973.6375pt x 730.73pt>
+<graphics/TSL2561/TSL2561_Breakout.JPG, id=375, 973.6375pt x 730.73pt>
 File: graphics/TSL2561/TSL2561_Breakout.JPG Graphic file (type jpg)
 <use graphics/TSL2561/TSL2561_Breakout.JPG>
 Package pdftex.def Info: graphics/TSL2561/TSL2561_Breakout.JPG  used on input l
@@ -2759,7 +2759,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 367--368
  []
 
 [25 <./graphics/TSL2561/TSL2561_Breakout.JPG>]
-<graphics/BME280/BME280_Breakout.JPG, id=377, 973.6375pt x 730.73pt>
+<graphics/BME280/BME280_Breakout.JPG, id=389, 973.6375pt x 730.73pt>
 File: graphics/BME280/BME280_Breakout.JPG Graphic file (type jpg)
 <use graphics/BME280/BME280_Breakout.JPG>
 Package pdftex.def Info: graphics/BME280/BME280_Breakout.JPG  used on input lin
@@ -2770,34 +2770,149 @@ e 371.
 
  (parts/hardware/Datenspeicherung.tex
 chapter 11.
-) [27
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--7
+
+ []
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 8.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mu' on input line 8.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 8.
+
+<graphics/Datenspeicherung/micro_sd_card_16GB.png, id=398, 155.58125pt x 113.42
+375pt>
+File: graphics/Datenspeicherung/micro_sd_card_16GB.png Graphic file (type png)
+<use graphics/Datenspeicherung/micro_sd_card_16GB.png>
+Package pdftex.def Info: graphics/Datenspeicherung/micro_sd_card_16GB.png  used
+ on input line 11.
+(pdftex.def)             Requested size: 80.12218pt x 58.41127pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 12.
+See the caption package documentation for explanation.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--17
+
+ []
+
+LaTeX Font Info:    Try loading font information for TS1+lmr on input line 18.
+("C:\Users\mknup\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\ts1lmr.fd"
+File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+Underfull \hbox (badness 10000) in paragraph at lines 19--20
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--23
+
+ []
+
+
+LaTeX Warning: Command \" invalid in math mode on input line 28.
+
+
+LaTeX Warning: Reference `fig:datenausgabe' on page 27 undefined on input line 
+32.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--33
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--41
+
+ []
+
+[27
 
 
 
-]
+ <./graphics/Datenspeicherung/micro_sd_card_16GB.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 43--44
+
+ []
+
+) [28]
 \openout2 = `parts/hardware/Kommunikationsmodule.aux'.
 
  (parts/hardware/Kommunikationsmodule.tex
 chapter 12.
-) [28
+
+Underfull \hbox (badness 1466) in paragraph at lines 7--8
+[]\T1/lmr/m/n/10.95 Der SIM808 (Ab-bil-dung []12.1.1[]) ver-fügt über
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
+
+ []
+
+<graphics/SIM808/SIM808.JPG, id=424, 208.98074pt x 205.9695pt>
+File: graphics/SIM808/SIM808.JPG Graphic file (type jpg)
+<use graphics/SIM808/SIM808.JPG>
+Package pdftex.def Info: graphics/SIM808/SIM808.JPG  used on input line 11.
+(pdftex.def)             Requested size: 149.77502pt x 147.6222pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 13.
+See the caption package documentation for explanation.
+
+)
+Underfull \hbox (badness 10000) in paragraph at lines 39--76
+
+ []
+
+[29
 
 
 
-]
+ <./graphics/SIM808/SIM808.JPG>]
 \openout2 = `parts/hardware/Energieversorgung.aux'.
 
  (parts/hardware/Energieversorgung.tex
 chapter 13.
-) [29
+
+LaTeX Warning: Reference `sec:Energiekonzept' on page 30 undefined on input lin
+e 3.
+
+<graphics/Energieversorgung/Konzept.JPG, id=436, 405.31425pt x 320.99925pt>
+File: graphics/Energieversorgung/Konzept.JPG Graphic file (type jpg)
+<use graphics/Energieversorgung/Konzept.JPG>
+Package pdftex.def Info: graphics/Energieversorgung/Konzept.JPG  used on input 
+line 8.
+(pdftex.def)             Requested size: 364.19664pt x 288.43134pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--12
+
+ []
+
+[30
 
 
 
-]
+ <./graphics/Energieversorgung/Konzept.JPG>] [31]) [32]
 \openout2 = `parts/hardware/PCB.aux'.
 
- (parts/hardware/PCB.tex
+
+(parts/hardware/PCB.tex
 chapter 14.
-) [30
+) [33
 
 
 
@@ -2806,7 +2921,7 @@ part IV.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
 (scrkbase)              on input line 80.
-[31
+[34
 
 
 ]
@@ -2814,7 +2929,7 @@ Package scrkbase Info: You've told me to use the font selection of the element
 
  (parts/abschluss/Konzeptvalidierung.tex
 chapter 15.
-) [32
+) [35
 
 
 ]
@@ -2822,7 +2937,7 @@ chapter 15.
 
  (parts/abschluss/Schluss.tex
 chapter 16.
-) [33
+) [36
 
 
 
@@ -2846,7 +2961,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--11
 []|\T1/lmr/m/n/14.4 Brugg/Windisch,
  []
 
-) [34
+) [37
 
 
 
@@ -2855,7 +2970,7 @@ part V.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
 (scrkbase)              on input line 90.
-[35
+[38
 
 
 ]
@@ -2864,9 +2979,20 @@ LaTeX Font Info:    Try loading font information for T1+lmtt on input line 92.
 ("C:\Users\mknup\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\t1lmtt.fd"
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-[36
+Underfull \hbox (badness 1005) in paragraph at lines 92--92
+[]\T1/lmr/m/n/10.95 Amazon. (kei-ne An-ga-be). Er-satz Sen-sor Wind-ge-schwin-d
+ig-keit für Frog-git WH1080
+ []
 
-] (Fachbericht.lot
+
+Underfull \hbox (badness 2277) in paragraph at lines 92--92
+\T1/lmr/m/n/10.95 WH3080 WH1090, Adres-se: []$\T1/lmtt/m/n/10.95 https : / / ww
+w . amazon . de / Ersatz -[] Sensor -[]
+ []
+
+[39
+
+] [40] (Fachbericht.lot
 
 Package tocbasic Warning: number width of table toc entries should be increased
 !
@@ -2971,11 +3097,37 @@ Overfull \hbox (5.83987pt too wide) detected at line 23
 \T1/lmr/m/n/10.95 10.2.1. |
  []
 
+
+Package tocbasic Warning: number width of table toc entries should be increased
+!
+(tocbasic)                Currently used number width = 31.02489pt,
+(tocbasic)                Wanted number separation    = 4.37993pt,
+(tocbasic)                Reserved number width       = 25.18501pt on input lin
+e 26.
+
+
+Overfull \hbox (5.83987pt too wide) detected at line 26
+\T1/lmr/m/n/10.95 12.1.1. |
+ []
+
+
+Package tocbasic Warning: number width of table toc entries should be increased
+!
+(tocbasic)                Currently used number width = 31.02489pt,
+(tocbasic)                Wanted number separation    = 4.37993pt,
+(tocbasic)                Reserved number width       = 25.18501pt on input lin
+e 28.
+
+
+Overfull \hbox (5.83987pt too wide) detected at line 28
+\T1/lmr/m/n/10.95 13.2.1. |
+ []
+
 )
 \tf@lot=\write7
 \openout7 = `Fachbericht.lot'.
 
- [37
+ [41
 
 ] (Fachbericht.lof
 
@@ -3196,14 +3348,53 @@ e 32.
 
 
 Overfull \hbox (5.83987pt too wide) detected at line 32
-\T1/lmr/m/n/10.95 10.3.1. |
+\T1/lmr/m/n/10.95 10.2.2. |
+ []
+
+
+Package tocbasic Warning: number width of figure toc entries should be increase
+d!
+(tocbasic)                Currently used number width = 31.02489pt,
+(tocbasic)                Wanted number separation    = 4.37993pt,
+(tocbasic)                Reserved number width       = 25.18501pt on input lin
+e 34.
+
+
+Overfull \hbox (5.83987pt too wide) detected at line 34
+\T1/lmr/m/n/10.95 11.1.1. |
+ []
+
+
+Package tocbasic Warning: number width of figure toc entries should be increase
+d!
+(tocbasic)                Currently used number width = 31.02489pt,
+(tocbasic)                Wanted number separation    = 4.37993pt,
+(tocbasic)                Reserved number width       = 25.18501pt on input lin
+e 36.
+
+
+Overfull \hbox (5.83987pt too wide) detected at line 36
+\T1/lmr/m/n/10.95 12.1.1. |
+ []
+
+
+Package tocbasic Warning: number width of figure toc entries should be increase
+d!
+(tocbasic)                Currently used number width = 31.02489pt,
+(tocbasic)                Wanted number separation    = 4.37993pt,
+(tocbasic)                Reserved number width       = 25.18501pt on input lin
+e 38.
+
+
+Overfull \hbox (5.83987pt too wide) detected at line 38
+\T1/lmr/m/n/10.95 13.1.1. |
  []
 
 )
 \tf@lof=\write8
 \openout8 = `Fachbericht.lof'.
 
- [38
+ [42
 
 ]
 \openout2 = `parts/appendix.aux'.
@@ -3250,36 +3441,38 @@ Package logreq Info: Writing requests to 'Fachbericht.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 112.
  ) 
 Here is how much of TeX's memory you used:
- 53021 strings out of 492946
- 1113759 string characters out of 3126266
- 1809348 words of memory out of 3000000
- 55859 multiletter control sequences out of 15000+200000
- 634517 words of font info for 81 fonts, out of 3000000 for 9000
+ 53125 strings out of 492946
+ 1116396 string characters out of 3126266
+ 1811224 words of memory out of 3000000
+ 55929 multiletter control sequences out of 15000+200000
+ 634882 words of font info for 82 fonts, out of 3000000 for 9000
  1143 hyphenation exceptions out of 8191
  76i,12n,85p,9197b,2890s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/mknup/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.en
-c}{C:/Users/mknup/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathi
-t.enc}{C:/Users/mknup/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-m
-athsy.enc}{C:/Users/mknup/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/
-lm-rm.enc}<C:/Users/mknup/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/
-lm/lmbx10.pfb><C:/Users/mknup/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pub
-lic/lm/lmbx12.pfb><C:/Users/mknup/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
-/public/lm/lmmi10.pfb><C:/Users/mknup/AppData/Local/Programs/MiKTeX 2.9/fonts/t
-ype1/public/lm/lmmi7.pfb><C:/Users/mknup/AppData/Local/Programs/MiKTeX 2.9/font
-s/type1/public/lm/lmmi8.pfb><C:/Users/mknup/AppData/Local/Programs/MiKTeX 2.9/f
-onts/type1/public/lm/lmr10.pfb><C:/Users/mknup/AppData/Local/Programs/MiKTeX 2.
-9/fonts/type1/public/lm/lmr12.pfb><C:/Users/mknup/AppData/Local/Programs/MiKTeX
- 2.9/fonts/type1/public/lm/lmr17.pfb><C:/Users/mknup/AppData/Local/Programs/MiK
-TeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Users/mknup/AppData/Local/Programs/M
-iKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Users/mknup/AppData/Local/Progra
-ms/MiKTeX 2.9/fonts/type1/public/lm/lmro10.pfb><C:/Users/mknup/AppData/Local/Pr
-ograms/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Users/mknup/AppData/Lo
-cal/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Users/mknup/AppDat
-a/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy8.pfb><C:/Users/mknup/App
-Data/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb>
-Output written on Fachbericht.pdf (41 pages, 9378093 bytes).
+c}{C:/Users/mknup/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ts1.e
+nc}{C:/Users/mknup/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-math
+it.enc}{C:/Users/mknup/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-
+mathsy.enc}{C:/Users/mknup/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm
+/lm-rm.enc}<C:/Users/mknup/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public
+/lm/lmbx10.pfb><C:/Users/mknup/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
+blic/lm/lmbx12.pfb><C:/Users/mknup/AppData/Local/Programs/MiKTeX 2.9/fonts/type
+1/public/lm/lmmi10.pfb><C:/Users/mknup/AppData/Local/Programs/MiKTeX 2.9/fonts/
+type1/public/lm/lmmi12.pfb><C:/Users/mknup/AppData/Local/Programs/MiKTeX 2.9/fo
+nts/type1/public/lm/lmmi7.pfb><C:/Users/mknup/AppData/Local/Programs/MiKTeX 2.9
+/fonts/type1/public/lm/lmmi8.pfb><C:/Users/mknup/AppData/Local/Programs/MiKTeX 
+2.9/fonts/type1/public/lm/lmr10.pfb><C:/Users/mknup/AppData/Local/Programs/MiKT
+eX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Users/mknup/AppData/Local/Programs/M
+iKTeX 2.9/fonts/type1/public/lm/lmr17.pfb><C:/Users/mknup/AppData/Local/Program
+s/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Users/mknup/AppData/Local/Progr
+ams/MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Users/mknup/AppData/Local/P
+rograms/MiKTeX 2.9/fonts/type1/public/lm/lmro10.pfb><C:/Users/mknup/AppData/Loc
+al/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Users/mknup/AppDa
+ta/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Users/mknup/A
+ppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy8.pfb><C:/Users/mknu
+p/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb>
+Output written on Fachbericht.pdf (45 pages, 9542947 bytes).
 PDF statistics:
- 686 PDF objects out of 1000 (max. 8388607)
- 122 named destinations out of 1000 (max. 500000)
- 487 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 814 PDF objects out of 1000 (max. 8388607)
+ 147 named destinations out of 1000 (max. 500000)
+ 550 words of extra memory for PDF output out of 10000 (max. 10000000)
 

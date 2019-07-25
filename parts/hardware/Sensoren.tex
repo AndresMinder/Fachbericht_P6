@@ -335,7 +335,7 @@ Die Wetterstation wird hauptsächlich in einem Temperaturbereich von 0 bis 65 $^
 %\item \textcolor{blue}{float} \textcolor{orange}{readPressure}()
 %\end{itemize}
 
-\section{Sensoren - Bachelor-Thesis}
+\section{Ergänzungen aus der Bachelor-Thesis}
 Während der Bachelor-Thesis soll ein Sensor zur Ermittlung der Sonnenstunden implementiert werden. Um dies zu erreichen wurde die Idee, die Sonnenstunden direkt über den Ladestrom der Photovoltaikanlage zu eruieren, verworfen, da auf diese Weise mit höheren Energieverlusten zu rechnen wäre durch das Abzweigen des Ladestroms und die damit verbundene zusätzliche Speisung der Schaltung. Stattdessen wird über ein Lichtintensitätssensor die Bestrahlungsstärke gemessen, womit die Sonnenstunden über einen Schwellwert berechnet werden können. Im folgenden Abschnitt wird der verwendete Lichtintensitätssensor näher erläutert.
 
 \subsection{Lichtintensitätssensor}
@@ -363,7 +363,7 @@ Die Lichtintensität wird über den TSL2561, ein digitaler low power Sensor, eru
   \label{tab:TSL2561}%
 \end{table}%
 
-\section{BME280 - Ergänzung aus der Bachelor-Thesis}
+\subsection{BME280}
 Im Verlauf der Bachelor-Thesis wurde über das Design des Gehäuses der Wetterstation diskutiert, dabei wurde ebenfalls die Notwendigkeit eines Zugangs zu frischer Umgebungsluft für den BME280 erwähnt. Würde der BME280 auf dem PCB angebracht werden, so würde dieser durch die Abwärme der Elektronik stärker beeinflusst und Fehlmessungen generieren. Aus diesem Grund soll der BME280 an der unteren Seite des Gehäuses, zugänglich zu frischer Aussenluft, montiert werden. Damit Fehlmessungen möglichst vermieden werden können, wird wie beim TSL2561 für den BME280 ein Breakout Board verwendet (Abbildung \ref{fig:BME_Breakout}) und über Pinheader mit dem PCB verbunden.\\
 
 \begin{figure}[hbtp]
