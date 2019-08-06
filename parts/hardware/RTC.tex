@@ -1,9 +1,10 @@
-\chapter{RTC}
-\label{chap:RTC}
-Die RTC (Real Time Clock) wurde bereits während des Projekt 5 integriert und in dessen Fachbericht dokumentiert. Nachfolgender Text wurde übernommen, damit die Vollständigkeit gewahrt wird.\\
+\subsection{RTC}
+\label{subsec:RTC}
+Im vergangenen Kapitel (MCU) wurden bereits RC-Oszillatoren und Quarze erwähnt. Die RTC (Real Time Clock) beinhaltet ebenfalls einen Quarz, weshalb die RTC in diesem Kapitel näher erläutert wird.
+Die RTC wurde bereits während des Projekt 5 integriert und in dessen Fachbericht dokumentiert. Nachfolgender Text wurde übernommen, damit die Vollständigkeit gewahrt wird.
 
-\section{RTC - Projekt 5}
-Um die gewonnenen Messdaten mit einem Zeitstempel zu versehen, wird eine \textbf{RTC} (\textit{real time clock}) benötigt. Um eine möglichst kleine Abweichung zu haben, wird eine hohe Präzision vorausgesetzt. Ausserdem soll die \textbf{RTC} über das in Kapitel \ref{subsubsec:I2C} erwähnte \textbf{I$^2$C}-Bus angesteuert werden. Aus diesen Gründen wurde der \textbf{DS3231} implementiert, da dieser als Präzisions-\textbf{I$^2$C}-\textbf{RTC} die Anforderungen erfüllt. Die hohe Präzision des \textbf{DS3231} wird mit einem internen Temperatursensor erreicht, welcher Temperaturbedingte Abweichungen des Oszillators kompensiert. Zu sehen ist der \textbf{DS3231} mit seinen Anschlüssen in Abbildung \ref{fig:DS3231}.
+\subsubsection{RTC - Projekt 5}
+Um die gewonnenen Messdaten mit einem Zeitstempel zu versehen, wird eine \textbf{RTC} (\textit{real time clock}) benötigt. Um eine möglichst kleine Abweichung zu haben, wird eine hohe Präzision vorausgesetzt. Ausserdem soll die \textbf{RTC} über das in Kapitel \ref{chap:Interfaces} erwähnte \textbf{I$^2$C}-Bus angesteuert werden. Aus diesen Gründen wurde der \textbf{DS3231} implementiert, da dieser als Präzisions-\textbf{I$^2$C}-\textbf{RTC} die Anforderungen erfüllt. Die hohe Präzision des \textbf{DS3231} wird mit einem internen Temperatursensor erreicht, welcher Temperaturbedingte Abweichungen des Oszillators kompensiert. Zu sehen ist der \textbf{DS3231} mit seinen Anschlüssen in Abbildung \ref{fig:DS3231}.
 
 \begin{figure}[h]
 \centering
@@ -40,7 +41,8 @@ Timekeeping Battery Current &  & 0.84 & 3 & $\mu$A & 3.63 V \\
 \label{tab:DS3231}
 \end{table}
 
-Tabelle \ref{tab:DS3231} zeigt die für das Projekt relevanten Spezifikationen des \textbf{DS3231}. Wichtig ist, dass die Alterung des Oszillators zu einem Fehler führt, dieser jedoch im ppm-Bereich liegt und somit erst über viele Jahre hinweg bemerkbar wird.
+Tabelle \ref{tab:DS3231} zeigt die für das Projekt relevanten Spezifikationen des \textbf{DS3231}. Wichtig ist, dass die Alterung des Quarzes zu einem Fehler führt, dieser jedoch im ppm-Bereich liegt und somit erst über viele Jahre hinweg bemerkbar wird.\\[0.5cm]
+Wie erwähnt wurde, wird die RTC über den I$^2$C-Bus von der MCU angesteuert. Da dies ebenfalls für gewisse Sensoren gilt, werden im nächsten Kapitel die Sensoren thematisiert.
 
 %\subsection{Implementation in die Firmware}
 %Für die Implementation wurde die bereits existierende Library \textbf{RTClib} von Adafruit in die Firmware integriert. Anschließend konnte das Headerfile <Adafruit\_RTClib.h> inkludiert werden und mit der Funktion \textit{TimeStamp getTimeStamp()} der aktuelle Zeitstempel abgerufen werden. \\

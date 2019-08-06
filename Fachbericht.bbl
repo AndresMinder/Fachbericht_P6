@@ -543,6 +543,35 @@
       \verb https://www.mouser.ch/datasheet/2/916/74HC4050-1598370.pdf
       \endverb
     \endentry
+    \entry{Solarpanel}{online}{}
+      \name{author}{1}{}{%
+        {{hash=15a4fbe287b7987574ac59b2f938ddeb}{%
+           family={Adafruit},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{15a4fbe287b7987574ac59b2f938ddeb}
+      \strng{fullhash}{15a4fbe287b7987574ac59b2f938ddeb}
+      \strng{bibnamehash}{15a4fbe287b7987574ac59b2f938ddeb}
+      \strng{authorbibnamehash}{15a4fbe287b7987574ac59b2f938ddeb}
+      \strng{authornamehash}{15a4fbe287b7987574ac59b2f938ddeb}
+      \strng{authorfullhash}{15a4fbe287b7987574ac59b2f938ddeb}
+      \field{extraname}{3}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Huge 6V 6W Solar panel - 6.0 Watt}}
+      \field{urlday}{26}
+      \field{urlmonth}{7}
+      \field{urlyear}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.adafruit.com/product/1525
+      \endverb
+      \verb{url}
+      \verb https://www.adafruit.com/product/1525
+      \endverb
+    \endentry
   \enddatalist
 \endrefsection
 \endinput

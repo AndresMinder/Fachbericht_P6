@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.11)  25 JUL 2019 21:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.11)  6 AUG 2019 15:34
 entering extended mode
 **./Fachbericht.tex
 (Fachbericht.tex
@@ -2014,8 +2014,9 @@ File: english.lbx 2018/11/02 v3.12 biblatex localization (PK/MW)
 (parts/hardware/MCU.aux) (parts/hardware/RTC.aux) (parts/hardware/Sensoren.aux)
 (parts/hardware/Datenspeicherung.aux) (parts/hardware/Kommunikationsmodule.aux)
 (parts/hardware/Energieversorgung.aux) (parts/hardware/PCB.aux)
-(parts/abschluss/Konzeptvalidierung.aux) (parts/abschluss/Schluss.aux)
-(parts/Authentizitaetserklaerung.aux) (parts/appendix.aux))
+(parts/hardware/Gehaeuse.aux) (parts/abschluss/Konzeptvalidierung.aux)
+(parts/abschluss/Schluss.aux) (parts/Authentizitaetserklaerung.aux)
+(parts/appendix.aux))
 \openout1 = `Fachbericht.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
@@ -2262,16 +2263,16 @@ LaTeX Font Info:    Try loading font information for T1+lmss on input line 51.
 ("C:\Users\mknup\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\t1lmss.fd"
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-(Fachbericht.toc [1
-
-
-
-
-])
+(Fachbericht.toc)
 \tf@toc=\write6
 \openout6 = `Fachbericht.toc'.
 
- [2]
+ [1
+
+
+
+
+] [2]
 part I.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
@@ -2366,16 +2367,58 @@ Package scrkbase Info: You've told me to use the font selection of the element
 \openout2 = `parts/hardware/Uebersicht.aux'.
 
  (parts/hardware/Uebersicht.tex
-chapter 7.
-) [10
+<graphics/HW_Uebersicht/PCB_Unbestueckt.jpg, id=158, 426.393pt x 368.0952pt>
+File: graphics/HW_Uebersicht/PCB_Unbestueckt.jpg Graphic file (type jpg)
+<use graphics/HW_Uebersicht/PCB_Unbestueckt.jpg>
+Package pdftex.def Info: graphics/HW_Uebersicht/PCB_Unbestueckt.jpg  used on in
+put line 7.
+(pdftex.def)             Requested size: 450.69414pt x 389.08379pt.
+ [10
+
+ <./graphics/HW_Uebersicht/PCB_Unbestueckt.jpg>]
+<graphics/HW_Uebersicht/PCB_Sensoren_MCU_SD_RTC.jpg, id=166, 426.393pt x 368.09
+52pt>
+File: graphics/HW_Uebersicht/PCB_Sensoren_MCU_SD_RTC.jpg Graphic file (type jpg
+)
+<use graphics/HW_Uebersicht/PCB_Sensoren_MCU_SD_RTC.jpg>
+Package pdftex.def Info: graphics/HW_Uebersicht/PCB_Sensoren_MCU_SD_RTC.jpg  us
+ed on input line 17.
+(pdftex.def)             Requested size: 450.69414pt x 389.08379pt.
+<graphics/HW_Uebersicht/PCB_USB_SIM808.jpg, id=168, 426.393pt x 368.0952pt>
+File: graphics/HW_Uebersicht/PCB_USB_SIM808.jpg Graphic file (type jpg)
+<use graphics/HW_Uebersicht/PCB_USB_SIM808.jpg>
+Package pdftex.def Info: graphics/HW_Uebersicht/PCB_USB_SIM808.jpg  used on inp
+ut line 25.
+(pdftex.def)             Requested size: 450.69414pt x 389.08379pt.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 26.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 26.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 26.
 
 
-]
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[11 <./graphics/HW_Uebersicht/PCB_Sensoren_MCU_SD_RTC.jpg>] [12 <./graphics/HW_
+Uebersicht/PCB_USB_SIM808.jpg>]
+<graphics/HW_Uebersicht/PCB_Energieversorgung.jpg, id=183, 426.393pt x 368.0952
+pt>
+File: graphics/HW_Uebersicht/PCB_Energieversorgung.jpg Graphic file (type jpg)
+<use graphics/HW_Uebersicht/PCB_Energieversorgung.jpg>
+Package pdftex.def Info: graphics/HW_Uebersicht/PCB_Energieversorgung.jpg  used
+ on input line 34.
+(pdftex.def)             Requested size: 450.69414pt x 389.08379pt.
+)
+Underfull \hbox (badness 10000) in paragraph at lines 40--71
+
+ []
+
+[13 <./graphics/HW_Uebersicht/PCB_Energieversorgung.jpg>]
 \openout2 = `parts/hardware/MCU.aux'.
 
- (parts/hardware/MCU.tex
-chapter 8.
 
+(parts/hardware/MCU.tex
 Underfull \hbox (badness 10000) in paragraph at lines 6--7
 
  []
@@ -2385,7 +2428,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--10
 
  []
 
-<graphics/MCU/arduino_mega.png, id=195, 640.64343pt x 321.45094pt>
+<graphics/MCU/arduino_mega.png, id=191, 640.64343pt x 321.45094pt>
 File: graphics/MCU/arduino_mega.png Graphic file (type png)
 <use graphics/MCU/arduino_mega.png>
 Package pdftex.def Info: graphics/MCU/arduino_mega.png  used on input line 14.
@@ -2395,57 +2438,350 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 15.
 See the caption package documentation for explanation.
 
-)
-Underfull \hbox (badness 10000) in paragraph at lines 45--72
+[14
 
+
+ <./graphics/MCU/arduino_mega.png>]
+<graphics/MCU/ATMega2560.jpg, id=207, 225.84375pt x 225.84375pt>
+File: graphics/MCU/ATMega2560.jpg Graphic file (type jpg)
+<use graphics/MCU/ATMega2560.jpg>
+Package pdftex.def Info: graphics/MCU/ATMega2560.jpg  used on input line 50.
+(pdftex.def)             Requested size: 160.2474pt x 160.25713pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 51.
+See the caption package documentation for explanation.
+
+
+Underfull \hbox (badness 1590) in paragraph at lines 51--51
+[][]|[]\T1/lmr/m/n/10 Der Mi-kro-pro-zes-sor
  []
 
-[11
 
+Underfull \hbox (badness 3919) in paragraph at lines 51--51
+\T1/lmr/m/n/10 AT-Me-ga2560, oh-ne
+ []
 
-
- <./graphics/MCU/arduino_mega.png>] [12]
+) [15 <./graphics/MCU/ATMega2560.jpg>]
 \openout2 = `parts/hardware/RTC.aux'.
 
  (parts/hardware/RTC.tex
-chapter 9.
-
-Underfull \hbox (badness 10000) in paragraph at lines 3--4
-
- []
-
-
-LaTeX Warning: Reference `subsubsec:I2C' on page 13 undefined on input line 6.
-
-<graphics/DS3231.png, id=215, 178.41656pt x 197.23688pt>
+<graphics/DS3231.png, id=219, 178.41656pt x 197.23688pt>
 File: graphics/DS3231.png Graphic file (type png)
 <use graphics/DS3231.png>
-Package pdftex.def Info: graphics/DS3231.png  used on input line 10.
+Package pdftex.def Info: graphics/DS3231.png  used on input line 11.
 (pdftex.def)             Requested size: 182.09485pt x 201.31136pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 15--16
+Underfull \hbox (badness 10000) in paragraph at lines 16--17
 
  []
 
-[13
-
+[16
 
 
  <./graphics/DS3231.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 18--19
+Underfull \hbox (badness 10000) in paragraph at lines 19--20
 
  []
 
-) [14]
+) [17]
 \openout2 = `parts/hardware/Sensoren.aux'.
 
  (parts/hardware/Sensoren.tex
-chapter 10.
 
-Underfull \hbox (badness 10000) in paragraph at lines 3--4
+Class scrreprt Warning: incompatible usage of \@ssect detected.
+(scrreprt)              You've used the KOMA-Script implementation of \@ssect
+(scrreprt)              from within a non compatible caller, that does not
+(scrreprt)              \scr@s@ct@@nn@m@ locally.
+(scrreprt)              This could result in several error messages on input li
+ne 7.
+
+
+Class scrreprt Warning: incompatible usage of \@ssect detected.
+(scrreprt)              You've used the KOMA-Script implementation of \@ssect
+(scrreprt)              from within a non compatible caller, that does not
+(scrreprt)              \scr@s@ct@@nn@m@ locally.
+(scrreprt)              This could result in several error messages on input li
+ne 9.
+
+<graphics/Kipploeffel.png, id=243, 564.1075pt x 363.3575pt>
+File: graphics/Kipploeffel.png Graphic file (type png)
+<use graphics/Kipploeffel.png>
+Package pdftex.def Info: graphics/Kipploeffel.png  used on input line 14.
+(pdftex.def)             Requested size: 364.19664pt x 234.59387pt.
+[18
+
+
+ <./graphics/Kipploeffel.png>]
+
+Class scrreprt Warning: incompatible usage of \@ssect detected.
+(scrreprt)              You've used the KOMA-Script implementation of \@ssect
+(scrreprt)              from within a non compatible caller, that does not
+(scrreprt)              \scr@s@ct@@nn@m@ locally.
+(scrreprt)              This could result in several error messages on input li
+ne 22.
+
+<graphics/Etappe1.jpg, id=254, 3130.69624pt x 1898.09125pt>
+File: graphics/Etappe1.jpg Graphic file (type jpg)
+<use graphics/Etappe1.jpg>
+Package pdftex.def Info: graphics/Etappe1.jpg  used on input line 33.
+(pdftex.def)             Requested size: 364.19664pt x 220.78116pt.
+[19 <./graphics/Etappe1.jpg>]
+<graphics/Etappe2.jpg, id=262, 3434.8325pt x 2650.90375pt>
+File: graphics/Etappe2.jpg Graphic file (type jpg)
+<use graphics/Etappe2.jpg>
+Package pdftex.def Info: graphics/Etappe2.jpg  used on input line 47.
+(pdftex.def)             Requested size: 364.19664pt x 281.043pt.
+ [20 <./graphics/Etappe2.jpg>]
+<graphics/KippSchalt.jpg, id=269, 2007.5pt x 1971.365pt>
+File: graphics/KippSchalt.jpg Graphic file (type jpg)
+<use graphics/KippSchalt.jpg>
+Package pdftex.def Info: graphics/KippSchalt.jpg  used on input line 65.
+(pdftex.def)             Requested size: 159.3382pt x 156.44904pt.
+ [21 <./graphics/KippSchalt.jpg>]
+<graphics/ombrometer/IMG_20190118_110027.jpg, id=277, 3982.88pt x 2987.16pt>
+File: graphics/ombrometer/IMG_20190118_110027.jpg Graphic file (type jpg)
+<use graphics/ombrometer/IMG_20190118_110027.jpg>
+Package pdftex.def Info: graphics/ombrometer/IMG_20190118_110027.jpg  used on i
+nput line 77.
+(pdftex.def)             Requested size: 318.66946pt x 238.97768pt.
+
+Underfull \hbox (badness 1038) in paragraph at lines 93--94
+[]\T1/lmr/m/n/10.95 Für die Wind-ge-schwin-dig-keits-mes-sung wur-de ein
+ []
+
+
+Underfull \hbox (badness 1776) in paragraph at lines 93--94
+\T1/lmr/m/n/10.95 schlieÿ-ba-ren Reed-kon-takt mo-du-lier-te puls-för-mi-ge
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 93--94
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 105--107
+
+ []
+
+<graphics/Anemometer/anemometer.png, id=282, 198.7425pt x 138.5175pt>
+File: graphics/Anemometer/anemometer.png Graphic file (type png)
+<use graphics/Anemometer/anemometer.png>
+Package pdftex.def Info: graphics/Anemometer/anemometer.png  used on input line
+ 110.
+(pdftex.def)             Requested size: 180.27643pt x 125.65164pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 111.
+See the caption package documentation for explanation.
+
+<graphics/Anemometer/rj_11_anschlussstecker.png, id=285, 330.48468pt x 232.6190
+6pt>
+File: graphics/Anemometer/rj_11_anschlussstecker.png Graphic file (type png)
+<use graphics/Anemometer/rj_11_anschlussstecker.png>
+Package pdftex.def Info: graphics/Anemometer/rj_11_anschlussstecker.png  used o
+n input line 114.
+(pdftex.def)             Requested size: 180.27643pt x 126.89732pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 115.
+See the caption package documentation for explanation.
+
+<graphics/Anemometer/schaltung_anemometer.png, id=286, 483.30562pt x 219.06844p
+t>
+File: graphics/Anemometer/schaltung_anemometer.png Graphic file (type png)
+<use graphics/Anemometer/schaltung_anemometer.png>
+Package pdftex.def Info: graphics/Anemometer/schaltung_anemometer.png  used on 
+input line 118.
+(pdftex.def)             Requested size: 180.27643pt x 81.71255pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 119.
+See the caption package documentation for explanation.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 119--119
+[][]|[]\T1/lmr/m/n/10 Beschaltung des
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 119--119
+\T1/lmr/m/n/10 Aus-gangs des
+ []
+
+<graphics/Anemometer/oszilloskop_anenometer_puls.png, id=287, 674.52pt x 516.42
+938pt>
+File: graphics/Anemometer/oszilloskop_anenometer_puls.png Graphic file (type pn
+g)
+<use graphics/Anemometer/oszilloskop_anenometer_puls.png>
+Package pdftex.def Info: graphics/Anemometer/oszilloskop_anenometer_puls.png  u
+sed on input line 122.
+(pdftex.def)             Requested size: 180.27643pt x 138.01938pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 123.
+See the caption package documentation for explanation.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 123--123
+[][]|[]\T1/lmr/m/n/10 Ausgangssignal
+ []
+
+[22 <./graphics/ombrometer/IMG_20190118_110027.jpg>] [23 <./graphics/Anemometer
+/anemometer.png> <./graphics/Anemometer/rj_11_anschlussstecker.png> <./graphics
+/Anemometer/schaltung_anemometer.png> <./graphics/Anemometer/oszilloskop_anenom
+eter_puls.png>]
+Underfull \hbox (badness 1117) in paragraph at lines 133--134
+\T1/lmr/m/n/10.95 hat einen in Se-rie ge-schal-te-ten Wi-der-stand von
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--134
+
+ []
+
+<graphics/windrichtungsgeber/interne_schaltung.PNG, id=315, 438.13687pt x 534.4
+9687pt>
+File: graphics/windrichtungsgeber/interne_schaltung.PNG Graphic file (type png)
+
+<use graphics/windrichtungsgeber/interne_schaltung.PNG>
+Package pdftex.def Info: graphics/windrichtungsgeber/interne_schaltung.PNG  use
+d on input line 137.
+(pdftex.def)             Requested size: 180.27643pt x 219.92809pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 138.
+See the caption package documentation for explanation.
+
+
+Underfull \hbox (badness 6078) in paragraph at lines 138--138
+[][]|[]\T1/lmr/m/n/10 Interne Schal-tung
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 185--186
+
+ []
+
+[24 <./graphics/windrichtungsgeber/interne_schaltung.PNG>]
+<graphics/windrichtungsgeber/aeussere_beschaltung.PNG, id=333, 130.98938pt x 15
+7.33781pt>
+File: graphics/windrichtungsgeber/aeussere_beschaltung.PNG Graphic file (type p
+ng)
+<use graphics/windrichtungsgeber/aeussere_beschaltung.PNG>
+Package pdftex.def Info: graphics/windrichtungsgeber/aeussere_beschaltung.PNG  
+used on input line 192.
+(pdftex.def)             Requested size: 111.53604pt x 133.97543pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 193.
+See the caption package documentation for explanation.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 193--193
+[][]|[]\T1/lmr/m/n/10 Spannungsteiler mit
+ []
+
+<graphics/windrichtungsgeber/windrichtungsgeber.PNG, id=336, 475.7775pt x 316.1
+8124pt>
+File: graphics/windrichtungsgeber/windrichtungsgeber.PNG Graphic file (type png
+)
+<use graphics/windrichtungsgeber/windrichtungsgeber.PNG>
+Package pdftex.def Info: graphics/windrichtungsgeber/windrichtungsgeber.PNG  us
+ed on input line 198.
+(pdftex.def)             Requested size: 200.76352pt x 133.41757pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 199.
+See the caption package documentation for explanation.
+
+
+Underfull \hbox (badness 7981) in paragraph at lines 227--228
+[]\T1/lmr/m/n/10.95 Der \T1/lmr/m/it/10.95 BME280 \T1/lmr/m/n/10.95 ist ein low
+ po-we-red di-gi-ta-ler
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 227--228
+\T1/lmr/m/n/10.95 Feuchtigkeits-, Luftdruck- und Tem-pe-ra-tur-sen-
+ []
+
+
+Underfull \hbox (badness 5970) in paragraph at lines 227--228
+\T1/lmr/m/n/10.95 Durch sei-nen nied-ri-gen Strom-ver-brauch, groÿe
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 227--228
+
+ []
+
+<graphics/bme280/bme280.PNG, id=340, 301.125pt x 230.36063pt>
+File: graphics/bme280/bme280.PNG Graphic file (type png)
+<use graphics/bme280/bme280.PNG>
+Package pdftex.def Info: graphics/bme280/bme280.PNG  used on input line 231.
+(pdftex.def)             Requested size: 180.27643pt x 137.91513pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 232.
+See the caption package documentation for explanation.
+
+
+Class scrreprt Warning: incompatible usage of \@ssect detected.
+(scrreprt)              You've used the KOMA-Script implementation of \@ssect
+(scrreprt)              from within a non compatible caller, that does not
+(scrreprt)              \scr@s@ct@@nn@m@ locally.
+(scrreprt)              This could result in several error messages on input li
+ne 261.
+
+[25 <./graphics/windrichtungsgeber/aeussere_beschaltung.PNG> <./graphics/windri
+chtungsgeber/windrichtungsgeber.PNG> <./graphics/bme280/bme280.PNG>]
+
+Class scrreprt Warning: incompatible usage of \@ssect detected.
+(scrreprt)              You've used the KOMA-Script implementation of \@ssect
+(scrreprt)              from within a non compatible caller, that does not
+(scrreprt)              \scr@s@ct@@nn@m@ locally.
+(scrreprt)              This could result in several error messages on input li
+ne 283.
+
+
+Class scrreprt Warning: incompatible usage of \@ssect detected.
+(scrreprt)              You've used the KOMA-Script implementation of \@ssect
+(scrreprt)              from within a non compatible caller, that does not
+(scrreprt)              \scr@s@ct@@nn@m@ locally.
+(scrreprt)              This could result in several error messages on input li
+ne 303.
+
+[26]
+Underfull \hbox (badness 10000) in paragraph at lines 340--341
+
+ []
+
+<graphics/TSL2561/TSL2561_Breakout.JPG, id=380, 973.6375pt x 730.73pt>
+File: graphics/TSL2561/TSL2561_Breakout.JPG Graphic file (type jpg)
+<use graphics/TSL2561/TSL2561_Breakout.JPG>
+Package pdftex.def Info: graphics/TSL2561/TSL2561_Breakout.JPG  used on input l
+ine 344.
+(pdftex.def)             Requested size: 227.62204pt x 170.82956pt.
+[27 <./graphics/TSL2561/TSL2561_Breakout.JPG>]
+Underfull \hbox (badness 10000) in paragraph at lines 365--366
+
+ []
+
+<graphics/BME280/BME280_Breakout.JPG, id=395, 973.6375pt x 730.73pt>
+File: graphics/BME280/BME280_Breakout.JPG Graphic file (type jpg)
+<use graphics/BME280/BME280_Breakout.JPG>
+Package pdftex.def Info: graphics/BME280/BME280_Breakout.JPG  used on input lin
+e 369.
+(pdftex.def)             Requested size: 227.62204pt x 170.82956pt.
+) [28 <./graphics/BME280/BME280_Breakout.JPG>]
+\openout2 = `parts/hardware/Datenspeicherung.aux'.
+
+
+(parts/hardware/Datenspeicherung.tex
 
 Class scrreprt Warning: incompatible usage of \@ssect detected.
 (scrreprt)              You've used the KOMA-Script implementation of \@ssect
@@ -2454,345 +2790,7 @@ Class scrreprt Warning: incompatible usage of \@ssect detected.
 (scrreprt)              This could result in several error messages on input li
 ne 8.
 
-
-Class scrreprt Warning: incompatible usage of \@ssect detected.
-(scrreprt)              You've used the KOMA-Script implementation of \@ssect
-(scrreprt)              from within a non compatible caller, that does not
-(scrreprt)              \scr@s@ct@@nn@m@ locally.
-(scrreprt)              This could result in several error messages on input li
-ne 10.
-
-<graphics/Kipploeffel.png, id=237, 564.1075pt x 363.3575pt>
-File: graphics/Kipploeffel.png Graphic file (type png)
-<use graphics/Kipploeffel.png>
-Package pdftex.def Info: graphics/Kipploeffel.png  used on input line 15.
-(pdftex.def)             Requested size: 364.19664pt x 234.59387pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[15
-
-
-
-]
-
-Class scrreprt Warning: incompatible usage of \@ssect detected.
-(scrreprt)              You've used the KOMA-Script implementation of \@ssect
-(scrreprt)              from within a non compatible caller, that does not
-(scrreprt)              \scr@s@ct@@nn@m@ locally.
-(scrreprt)              This could result in several error messages on input li
-ne 23.
-
-<graphics/Etappe1.jpg, id=246, 3130.69624pt x 1898.09125pt>
-File: graphics/Etappe1.jpg Graphic file (type jpg)
-<use graphics/Etappe1.jpg>
-Package pdftex.def Info: graphics/Etappe1.jpg  used on input line 34.
-(pdftex.def)             Requested size: 364.19664pt x 220.78116pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[16 <./graphics/Kipploeffel.png>]
-<graphics/Etappe2.jpg, id=256, 3434.8325pt x 2650.90375pt>
-File: graphics/Etappe2.jpg Graphic file (type jpg)
-<use graphics/Etappe2.jpg>
-Package pdftex.def Info: graphics/Etappe2.jpg  used on input line 48.
-(pdftex.def)             Requested size: 364.19664pt x 281.043pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[17 <./graphics/Etappe1.jpg>]
-<graphics/KippSchalt.jpg, id=263, 2007.5pt x 1971.365pt>
-File: graphics/KippSchalt.jpg Graphic file (type jpg)
-<use graphics/KippSchalt.jpg>
-Package pdftex.def Info: graphics/KippSchalt.jpg  used on input line 66.
-(pdftex.def)             Requested size: 182.09485pt x 178.7989pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[18 <./graphics/Etappe2.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 74--76
-
- []
-
-<graphics/ombrometer/IMG_20190118_110027.jpg, id=271, 3982.88pt x 2987.16pt>
-File: graphics/ombrometer/IMG_20190118_110027.jpg Graphic file (type jpg)
-<use graphics/ombrometer/IMG_20190118_110027.jpg>
-Package pdftex.def Info: graphics/ombrometer/IMG_20190118_110027.jpg  used on i
-nput line 79.
-(pdftex.def)             Requested size: 318.66946pt x 238.97768pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 84--85
-
- []
-
-[19 <./graphics/KippSchalt.jpg> <./graphics/ombrometer/IMG_20190118_110027.jpg>
-]
-Underfull \hbox (badness 1038) in paragraph at lines 95--96
-[]\T1/lmr/m/n/10.95 Für die Wind-ge-schwin-dig-keits-mes-sung wur-de ein
- []
-
-
-Underfull \hbox (badness 1776) in paragraph at lines 95--96
-\T1/lmr/m/n/10.95 schlieÿ-ba-ren Reed-kon-takt mo-du-lier-te puls-för-mi-ge
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 95--96
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 107--109
-
- []
-
-<graphics/Anemometer/anemometer.png, id=281, 198.7425pt x 138.5175pt>
-File: graphics/Anemometer/anemometer.png Graphic file (type png)
-<use graphics/Anemometer/anemometer.png>
-Package pdftex.def Info: graphics/Anemometer/anemometer.png  used on input line
- 112.
-(pdftex.def)             Requested size: 180.27643pt x 125.65164pt.
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 113.
-See the caption package documentation for explanation.
-
-<graphics/Anemometer/rj_11_anschlussstecker.png, id=284, 330.48468pt x 232.6190
-6pt>
-File: graphics/Anemometer/rj_11_anschlussstecker.png Graphic file (type png)
-<use graphics/Anemometer/rj_11_anschlussstecker.png>
-Package pdftex.def Info: graphics/Anemometer/rj_11_anschlussstecker.png  used o
-n input line 116.
-(pdftex.def)             Requested size: 180.27643pt x 126.89732pt.
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 117.
-See the caption package documentation for explanation.
-
-<graphics/Anemometer/schaltung_anemometer.png, id=285, 483.30562pt x 219.06844p
-t>
-File: graphics/Anemometer/schaltung_anemometer.png Graphic file (type png)
-<use graphics/Anemometer/schaltung_anemometer.png>
-Package pdftex.def Info: graphics/Anemometer/schaltung_anemometer.png  used on 
-input line 120.
-(pdftex.def)             Requested size: 180.27643pt x 81.71255pt.
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 121.
-See the caption package documentation for explanation.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 121--121
-[][]|[]\T1/lmr/m/n/10 Beschaltung des
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 121--121
-\T1/lmr/m/n/10 Aus-gangs des
- []
-
-<graphics/Anemometer/oszilloskop_anenometer_puls.png, id=286, 674.52pt x 516.42
-938pt>
-File: graphics/Anemometer/oszilloskop_anenometer_puls.png Graphic file (type pn
-g)
-<use graphics/Anemometer/oszilloskop_anenometer_puls.png>
-Package pdftex.def Info: graphics/Anemometer/oszilloskop_anenometer_puls.png  u
-sed on input line 124.
-(pdftex.def)             Requested size: 180.27643pt x 138.01938pt.
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 125.
-See the caption package documentation for explanation.
-
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 125.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 125.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 125.
-
-Underfull \hbox (badness 10000) in paragraph at lines 125--125
-[][]|[]\T1/lmr/m/n/10 Ausgangssignal
- []
-
-[20] [21 <./graphics/Anemometer/anemometer.png> <./graphics/Anemometer/rj_11_an
-schlussstecker.png> <./graphics/Anemometer/schaltung_anemometer.png> <./graphic
-s/Anemometer/oszilloskop_anenometer_puls.png>]
-Underfull \hbox (badness 1117) in paragraph at lines 135--136
-\T1/lmr/m/n/10.95 hat einen in Se-rie ge-schal-te-ten Wi-der-stand von
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 135--136
-
- []
-
-<graphics/windrichtungsgeber/interne_schaltung.PNG, id=311, 438.13687pt x 534.4
-9687pt>
-File: graphics/windrichtungsgeber/interne_schaltung.PNG Graphic file (type png)
-
-<use graphics/windrichtungsgeber/interne_schaltung.PNG>
-Package pdftex.def Info: graphics/windrichtungsgeber/interne_schaltung.PNG  use
-d on input line 139.
-(pdftex.def)             Requested size: 180.27643pt x 219.92809pt.
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 140.
-See the caption package documentation for explanation.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 187--188
-
- []
-
-[22 <./graphics/windrichtungsgeber/interne_schaltung.PNG>]
-<graphics/windrichtungsgeber/aeussere_beschaltung.PNG, id=329, 130.98938pt x 15
-7.33781pt>
-File: graphics/windrichtungsgeber/aeussere_beschaltung.PNG Graphic file (type p
-ng)
-<use graphics/windrichtungsgeber/aeussere_beschaltung.PNG>
-Package pdftex.def Info: graphics/windrichtungsgeber/aeussere_beschaltung.PNG  
-used on input line 194.
-(pdftex.def)             Requested size: 111.53604pt x 133.97543pt.
-
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 195.
-See the caption package documentation for explanation.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 195--195
-[][]|[]\T1/lmr/m/n/10 Spannungsteiler mit
- []
-
-<graphics/windrichtungsgeber/windrichtungsgeber.PNG, id=332, 475.7775pt x 316.1
-8124pt>
-File: graphics/windrichtungsgeber/windrichtungsgeber.PNG Graphic file (type png
-)
-<use graphics/windrichtungsgeber/windrichtungsgeber.PNG>
-Package pdftex.def Info: graphics/windrichtungsgeber/windrichtungsgeber.PNG  us
-ed on input line 200.
-(pdftex.def)             Requested size: 200.76352pt x 133.41757pt.
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 201.
-See the caption package documentation for explanation.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 201--201
-[][]|[]\T1/lmr/m/n/10 Windrichtungsgeber
- []
-
-
-Underfull \hbox (badness 7981) in paragraph at lines 229--230
-[]\T1/lmr/m/n/10.95 Der \T1/lmr/m/it/10.95 BME280 \T1/lmr/m/n/10.95 ist ein low
- po-we-red di-gi-ta-ler
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 229--230
-\T1/lmr/m/n/10.95 Feuchtigkeits-, Luftdruck- und Tem-pe-ra-tur-sen-
- []
-
-
-Underfull \hbox (badness 5970) in paragraph at lines 229--230
-\T1/lmr/m/n/10.95 Durch sei-nen nied-ri-gen Strom-ver-brauch, groÿe
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 229--230
-
- []
-
-<graphics/bme280/bme280.PNG, id=336, 301.125pt x 230.36063pt>
-File: graphics/bme280/bme280.PNG Graphic file (type png)
-<use graphics/bme280/bme280.PNG>
-Package pdftex.def Info: graphics/bme280/bme280.PNG  used on input line 233.
-(pdftex.def)             Requested size: 180.27643pt x 137.91513pt.
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 234.
-See the caption package documentation for explanation.
-
-
-Class scrreprt Warning: incompatible usage of \@ssect detected.
-(scrreprt)              You've used the KOMA-Script implementation of \@ssect
-(scrreprt)              from within a non compatible caller, that does not
-(scrreprt)              \scr@s@ct@@nn@m@ locally.
-(scrreprt)              This could result in several error messages on input li
-ne 263.
-
-[23 <./graphics/windrichtungsgeber/aeussere_beschaltung.PNG> <./graphics/windri
-chtungsgeber/windrichtungsgeber.PNG> <./graphics/bme280/bme280.PNG>]
-
-Class scrreprt Warning: incompatible usage of \@ssect detected.
-(scrreprt)              You've used the KOMA-Script implementation of \@ssect
-(scrreprt)              from within a non compatible caller, that does not
-(scrreprt)              \scr@s@ct@@nn@m@ locally.
-(scrreprt)              This could result in several error messages on input li
-ne 285.
-
-
-Class scrreprt Warning: incompatible usage of \@ssect detected.
-(scrreprt)              You've used the KOMA-Script implementation of \@ssect
-(scrreprt)              from within a non compatible caller, that does not
-(scrreprt)              \scr@s@ct@@nn@m@ locally.
-(scrreprt)              This could result in several error messages on input li
-ne 305.
-
-[24]
-Underfull \hbox (badness 10000) in paragraph at lines 342--343
-
- []
-
-<graphics/TSL2561/TSL2561_Breakout.JPG, id=375, 973.6375pt x 730.73pt>
-File: graphics/TSL2561/TSL2561_Breakout.JPG Graphic file (type jpg)
-<use graphics/TSL2561/TSL2561_Breakout.JPG>
-Package pdftex.def Info: graphics/TSL2561/TSL2561_Breakout.JPG  used on input l
-ine 346.
-(pdftex.def)             Requested size: 227.62204pt x 170.82956pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 367--368
-
- []
-
-[25 <./graphics/TSL2561/TSL2561_Breakout.JPG>]
-<graphics/BME280/BME280_Breakout.JPG, id=389, 973.6375pt x 730.73pt>
-File: graphics/BME280/BME280_Breakout.JPG Graphic file (type jpg)
-<use graphics/BME280/BME280_Breakout.JPG>
-Package pdftex.def Info: graphics/BME280/BME280_Breakout.JPG  used on input lin
-e 371.
-(pdftex.def)             Requested size: 227.62204pt x 170.82956pt.
-) [26 <./graphics/BME280/BME280_Breakout.JPG>]
-\openout2 = `parts/hardware/Datenspeicherung.aux'.
-
- (parts/hardware/Datenspeicherung.tex
-chapter 11.
-
-Underfull \hbox (badness 10000) in paragraph at lines 3--4
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 6--7
-
- []
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 8.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mu' on input line 8.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 8.
-
-<graphics/Datenspeicherung/micro_sd_card_16GB.png, id=398, 155.58125pt x 113.42
+<graphics/Datenspeicherung/micro_sd_card_16GB.png, id=406, 155.58125pt x 113.42
 375pt>
 File: graphics/Datenspeicherung/micro_sd_card_16GB.png Graphic file (type png)
 <use graphics/Datenspeicherung/micro_sd_card_16GB.png>
@@ -2818,44 +2816,43 @@ Underfull \hbox (badness 10000) in paragraph at lines 19--20
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 9--23
+LaTeX Warning: Command \" invalid in math mode on input line 26.
 
+
+LaTeX Warning: Reference `fig:datenausgabe' on page 29 undefined on input line 
+29.
+
+Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
+ine 30.
+
+Overfull \hbox (18.75883pt too wide) in paragraph at lines 30--30
+\T1/lmr/m/n/9 fig:datenausgabe[]  |
  []
 
 
-LaTeX Warning: Command \" invalid in math mode on input line 28.
-
-
-LaTeX Warning: Reference `fig:datenausgabe' on page 27 undefined on input line 
-32.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 32--33
-
+Overfull \hbox (18.75883pt too wide) in paragraph at lines 30--30
+\T1/lmr/m/n/9 fig:datenausgabe[]  |
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 40--41
+Underfull \hbox (badness 10000) in paragraph at lines 34--36
 
  []
 
-[27
-
+[29
 
 
  <./graphics/Datenspeicherung/micro_sd_card_16GB.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 43--44
+Underfull \hbox (badness 10000) in paragraph at lines 38--39
 
  []
 
-) [28]
+) [30]
 \openout2 = `parts/hardware/Kommunikationsmodule.aux'.
 
  (parts/hardware/Kommunikationsmodule.tex
-chapter 12.
-
 Underfull \hbox (badness 1466) in paragraph at lines 7--8
-[]\T1/lmr/m/n/10.95 Der SIM808 (Ab-bil-dung []12.1.1[]) ver-fügt über
+[]\T1/lmr/m/n/10.95 Der SIM808 (Ab-bil-dung []6.0.24[]) ver-fügt über
  []
 
 
@@ -2863,7 +2860,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--8
 
  []
 
-<graphics/SIM808/SIM808.JPG, id=424, 208.98074pt x 205.9695pt>
+<graphics/SIM808/SIM808.JPG, id=436, 208.98074pt x 205.9695pt>
 File: graphics/SIM808/SIM808.JPG Graphic file (type jpg)
 <use graphics/SIM808/SIM808.JPG>
 Package pdftex.def Info: graphics/SIM808/SIM808.JPG  used on input line 11.
@@ -2873,71 +2870,205 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 13.
 See the caption package documentation for explanation.
 
-)
-Underfull \hbox (badness 10000) in paragraph at lines 39--76
-
- []
-
-[29
+[31
 
 
-
- <./graphics/SIM808/SIM808.JPG>]
+ <./graphics/SIM808/SIM808.JPG>]) [32]
 \openout2 = `parts/hardware/Energieversorgung.aux'.
 
  (parts/hardware/Energieversorgung.tex
-chapter 13.
 
-LaTeX Warning: Reference `sec:Energiekonzept' on page 30 undefined on input lin
+LaTeX Warning: Reference `sec:Energiekonzept' on page 33 undefined on input lin
 e 3.
 
-<graphics/Energieversorgung/Konzept.JPG, id=436, 405.31425pt x 320.99925pt>
+<graphics/Energieversorgung/Konzept.JPG, id=454, 405.31425pt x 320.99925pt>
 File: graphics/Energieversorgung/Konzept.JPG Graphic file (type jpg)
 <use graphics/Energieversorgung/Konzept.JPG>
 Package pdftex.def Info: graphics/Energieversorgung/Konzept.JPG  used on input 
-line 8.
+line 9.
 (pdftex.def)             Requested size: 364.19664pt x 288.43134pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 5--12
+Underfull \hbox (badness 10000) in paragraph at lines 6--13
 
  []
 
-[30
+[33
 
 
+ <./graphics/Energieversorgung/Konzept.JPG>] [34]
+Underfull \hbox (badness 10000) in paragraph at lines 71--72
 
- <./graphics/Energieversorgung/Konzept.JPG>] [31]) [32]
+ []
+
+<graphics/Energieversorgung/Solarpanel.JPG, id=487, 292.09125pt x 219.219pt>
+File: graphics/Energieversorgung/Solarpanel.JPG Graphic file (type jpg)
+<use graphics/Energieversorgung/Solarpanel.JPG>
+Package pdftex.def Info: graphics/Energieversorgung/Solarpanel.JPG  used on inp
+ut line 75.
+(pdftex.def)             Requested size: 182.09485pt x 136.67033pt.
+[35 <./graphics/Energieversorgung/Solarpanel.JPG>]
+Underfull \hbox (badness 10000) in paragraph at lines 80--81
+
+ []
+
+<graphics/Energieversorgung/ChargePump.JPG, id=500, 513.71925pt x 157.18726pt>
+File: graphics/Energieversorgung/ChargePump.JPG Graphic file (type jpg)
+<use graphics/Energieversorgung/ChargePump.JPG>
+Package pdftex.def Info: graphics/Energieversorgung/ChargePump.JPG  used on inp
+ut line 87.
+(pdftex.def)             Requested size: 455.24408pt x 139.30138pt.
+[36 <./graphics/Energieversorgung/ChargePump.JPG>]) [37]
 \openout2 = `parts/hardware/PCB.aux'.
 
 
-(parts/hardware/PCB.tex
-chapter 14.
-) [33
-
+(parts/hardware/PCB.tex) [38
 
 
 ]
+\openout2 = `parts/hardware/Gehaeuse.aux'.
+
+ (parts/hardware/Gehaeuse.tex
+<graphics/Gehaeuse/PCB_Dimensionen.jpg, id=525, 426.393pt x 368.0952pt>
+File: graphics/Gehaeuse/PCB_Dimensionen.jpg Graphic file (type jpg)
+<use graphics/Gehaeuse/PCB_Dimensionen.jpg>
+Package pdftex.def Info: graphics/Gehaeuse/PCB_Dimensionen.jpg  used on input l
+ine 10.
+(pdftex.def)             Requested size: 409.71689pt x 353.70998pt.
+ [39
+
+
+ <./graphics/Gehaeuse/PCB_Dimensionen.jpg>] [40]
+<graphics/Gehaeuse/Design_Boden.jpg, id=539, 712.16063pt x 469.00218pt>
+File: graphics/Gehaeuse/Design_Boden.jpg Graphic file (type jpg)
+<use graphics/Gehaeuse/Design_Boden.jpg>
+Package pdftex.def Info: graphics/Gehaeuse/Design_Boden.jpg  used on input line
+ 24.
+(pdftex.def)             Requested size: 450.69414pt x 296.81119pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--30
+
+ []
+
+<graphics/Gehaeuse/Design_Boden_Schrauben.jpg, id=542, 499.8675pt x 458.46281pt
+>
+File: graphics/Gehaeuse/Design_Boden_Schrauben.jpg Graphic file (type jpg)
+<use graphics/Gehaeuse/Design_Boden_Schrauben.jpg>
+Package pdftex.def Info: graphics/Gehaeuse/Design_Boden_Schrauben.jpg  used on 
+input line 36.
+(pdftex.def)             Requested size: 218.5202pt x 200.41608pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 37.
+See the caption package documentation for explanation.
+
+[41 <./graphics/Gehaeuse/Design_Boden.jpg> <./graphics/Gehaeuse/Design_Boden_Sc
+hrauben.jpg>]
+<graphics/Gehaeuse/Design_Boden_Aussparungen.jpg, id=549, 410.2828pt x 326.7206
+3pt>
+File: graphics/Gehaeuse/Design_Boden_Aussparungen.jpg Graphic file (type jpg)
+<use graphics/Gehaeuse/Design_Boden_Aussparungen.jpg>
+Package pdftex.def Info: graphics/Gehaeuse/Design_Boden_Aussparungen.jpg  used 
+on input line 44.
+(pdftex.def)             Requested size: 227.62204pt x 181.26228pt.
+<graphics/Gehaeuse/Design_Boden_BME.jpg, id=551, 621.82312pt x 443.40656pt>
+File: graphics/Gehaeuse/Design_Boden_BME.jpg Graphic file (type jpg)
+<use graphics/Gehaeuse/Design_Boden_BME.jpg>
+Package pdftex.def Info: graphics/Gehaeuse/Design_Boden_BME.jpg  used on input 
+line 52.
+(pdftex.def)             Requested size: 318.66946pt x 227.23718pt.
+ [42 <./graphics/Gehaeuse/Design_Boden_Aussparungen.jpg> <./graphics/Gehaeuse/D
+esign_Boden_BME.jpg>]
+<graphics/Gehaeuse/Design_Deckel.jpg, id=559, 666.23906pt x 468.24937pt>
+File: graphics/Gehaeuse/Design_Deckel.jpg Graphic file (type jpg)
+<use graphics/Gehaeuse/Design_Deckel.jpg>
+Package pdftex.def Info: graphics/Gehaeuse/Design_Deckel.jpg  used on input lin
+e 62.
+(pdftex.def)             Requested size: 450.69414pt x 316.76202pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--67
+
+ []
+
+<graphics/Gehaeuse/Design_Deckel_Schraubenversenkung.jpg, id=562, 334.24875pt x
+ 271.76532pt>
+File: graphics/Gehaeuse/Design_Deckel_Schraubenversenkung.jpg Graphic file (typ
+e jpg)
+<use graphics/Gehaeuse/Design_Deckel_Schraubenversenkung.jpg>
+Package pdftex.def Info: graphics/Gehaeuse/Design_Deckel_Schraubenversenkung.jp
+g  used on input line 73.
+(pdftex.def)             Requested size: 218.5202pt x 177.67377pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 74.
+See the caption package documentation for explanation.
+
+<graphics/Gehaeuse/Design_Deckel_BMEundAussparungen.jpg, id=563, 632.3625pt x 4
+04.26031pt>
+File: graphics/Gehaeuse/Design_Deckel_BMEundAussparungen.jpg Graphic file (type
+ jpg)
+<use graphics/Gehaeuse/Design_Deckel_BMEundAussparungen.jpg>
+Package pdftex.def Info: graphics/Gehaeuse/Design_Deckel_BMEundAussparungen.jpg
+  used on input line 80.
+(pdftex.def)             Requested size: 273.14922pt x 174.62428pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[43 <./graphics/Gehaeuse/Design_Deckel.jpg> <./graphics/Gehaeuse/Design_Deckel_
+Schraubenversenkung.jpg>]
+<graphics/Gehaeuse/Design_Deckel_TSL.jpg, id=571, 380.17032pt x 456.95718pt>
+File: graphics/Gehaeuse/Design_Deckel_TSL.jpg Graphic file (type jpg)
+<use graphics/Gehaeuse/Design_Deckel_TSL.jpg>
+Package pdftex.def Info: graphics/Gehaeuse/Design_Deckel_TSL.jpg  used on input
+ line 88.
+(pdftex.def)             Requested size: 227.62204pt x 273.60466pt.
+ [44 <./graphics/Gehaeuse/Design_Deckel_BMEundAussparungen.jpg> <./graphics/Geh
+aeuse/Design_Deckel_TSL.jpg>]
+<graphics/Gehaeuse/Design_Boden_Rand.jpg, id=579, 335.75438pt x 268.00125pt>
+File: graphics/Gehaeuse/Design_Boden_Rand.jpg Graphic file (type jpg)
+<use graphics/Gehaeuse/Design_Boden_Rand.jpg>
+Package pdftex.def Info: graphics/Gehaeuse/Design_Boden_Rand.jpg  used on input
+ line 96.
+(pdftex.def)             Requested size: 178.45836pt x 142.44482pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 97.
+See the caption package documentation for explanation.
+
+<graphics/Gehaeuse/Design_Deckel_Rand.jpg, id=580, 318.43968pt x 242.40562pt>
+File: graphics/Gehaeuse/Design_Deckel_Rand.jpg Graphic file (type jpg)
+<use graphics/Gehaeuse/Design_Deckel_Rand.jpg>
+Package pdftex.def Info: graphics/Gehaeuse/Design_Deckel_Rand.jpg  used on inpu
+t line 102.
+(pdftex.def)             Requested size: 178.45836pt x 135.84607pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 103.
+See the caption package documentation for explanation.
+
+) [45 <./graphics/Gehaeuse/Design_Boden_Rand.jpg> <./graphics/Gehaeuse/Design_D
+eckel_Rand.jpg>]
 part IV.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 80.
-[34
+(scrkbase)              on input line 81.
+[46
 
 
 ]
 \openout2 = `parts/abschluss/Konzeptvalidierung.aux'.
 
  (parts/abschluss/Konzeptvalidierung.tex
-chapter 15.
-) [35
+chapter 7.
+) [47
 
 
 ]
 \openout2 = `parts/abschluss/Schluss.aux'.
 
  (parts/abschluss/Schluss.tex
-chapter 16.
-) [36
+chapter 8.
+) [48
 
 
 
@@ -2945,7 +3076,7 @@ chapter 16.
 \openout2 = `parts/Authentizitaetserklaerung.aux'.
 
  (parts/Authentizitaetserklaerung.tex
-chapter 17.
+chapter 9.
 
 Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
@@ -2961,7 +3092,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--11
 []|\T1/lmr/m/n/14.4 Brugg/Windisch,
  []
 
-) [37
+) [49
 
 
 
@@ -2969,30 +3100,56 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--11
 part V.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 90.
-[38
+(scrkbase)              on input line 91.
+[50
 
 
 ]
 chapter without number
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 92.
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 93.
 ("C:\Users\mknup\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\t1lmtt.fd"
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-Underfull \hbox (badness 1005) in paragraph at lines 92--92
+Underfull \hbox (badness 1005) in paragraph at lines 93--93
 []\T1/lmr/m/n/10.95 Amazon. (kei-ne An-ga-be). Er-satz Sen-sor Wind-ge-schwin-d
 ig-keit für Frog-git WH1080
  []
 
 
-Underfull \hbox (badness 2277) in paragraph at lines 92--92
+Underfull \hbox (badness 2277) in paragraph at lines 93--93
 \T1/lmr/m/n/10.95 WH3080 WH1090, Adres-se: []$\T1/lmtt/m/n/10.95 https : / / ww
 w . amazon . de / Ersatz -[] Sensor -[]
  []
 
-[39
+[51
 
-] [40] (Fachbericht.lot
+] [52] (Fachbericht.lot
+
+Package tocbasic Warning: number width of table toc entries should be increased
+!
+(tocbasic)                Currently used number width = 25.5499pt,
+(tocbasic)                Wanted number separation    = 4.37993pt,
+(tocbasic)                Reserved number width       = 25.18501pt on input lin
+e 12.
+
+
+Overfull \hbox (0.36488pt too wide) detected at line 12
+\T1/lmr/m/n/10.95 6.0.1. |
+ []
+
+
+Package tocbasic Warning: number width of table toc entries should be increased
+!
+(tocbasic)                Currently used number width = 25.5499pt,
+(tocbasic)                Wanted number separation    = 4.37993pt,
+(tocbasic)                Reserved number width       = 25.18501pt on input lin
+e 13.
+
+
+Overfull \hbox (0.36488pt too wide) detected at line 13
+\T1/lmr/m/n/10.95 6.0.2. |
+ []
+
 
 Package tocbasic Warning: number width of table toc entries should be increased
 !
@@ -3003,7 +3160,20 @@ e 14.
 
 
 Overfull \hbox (0.36488pt too wide) detected at line 14
-\T1/lmr/m/n/10.95 8.1.1. |
+\T1/lmr/m/n/10.95 6.0.3. |
+ []
+
+
+Package tocbasic Warning: number width of table toc entries should be increased
+!
+(tocbasic)                Currently used number width = 25.5499pt,
+(tocbasic)                Wanted number separation    = 4.37993pt,
+(tocbasic)                Reserved number width       = 25.18501pt on input lin
+e 15.
+
+
+Overfull \hbox (0.36488pt too wide) detected at line 15
+\T1/lmr/m/n/10.95 6.0.4. |
  []
 
 
@@ -3016,46 +3186,59 @@ e 16.
 
 
 Overfull \hbox (0.36488pt too wide) detected at line 16
-\T1/lmr/m/n/10.95 9.1.1. |
+\T1/lmr/m/n/10.95 6.0.5. |
  []
 
 
 Package tocbasic Warning: number width of table toc entries should be increased
 !
-(tocbasic)                Currently used number width = 31.02489pt,
+(tocbasic)                Currently used number width = 25.5499pt,
+(tocbasic)                Wanted number separation    = 4.37993pt,
+(tocbasic)                Reserved number width       = 25.18501pt on input lin
+e 17.
+
+
+Overfull \hbox (0.36488pt too wide) detected at line 17
+\T1/lmr/m/n/10.95 6.0.6. |
+ []
+
+
+Package tocbasic Warning: number width of table toc entries should be increased
+!
+(tocbasic)                Currently used number width = 25.5499pt,
 (tocbasic)                Wanted number separation    = 4.37993pt,
 (tocbasic)                Reserved number width       = 25.18501pt on input lin
 e 18.
 
 
-Overfull \hbox (5.83987pt too wide) detected at line 18
-\T1/lmr/m/n/10.95 10.1.1. |
+Overfull \hbox (0.36488pt too wide) detected at line 18
+\T1/lmr/m/n/10.95 6.0.7. |
  []
 
 
 Package tocbasic Warning: number width of table toc entries should be increased
 !
-(tocbasic)                Currently used number width = 31.02489pt,
+(tocbasic)                Currently used number width = 25.5499pt,
 (tocbasic)                Wanted number separation    = 4.37993pt,
 (tocbasic)                Reserved number width       = 25.18501pt on input lin
 e 19.
 
 
-Overfull \hbox (5.83987pt too wide) detected at line 19
-\T1/lmr/m/n/10.95 10.1.2. |
+Overfull \hbox (0.36488pt too wide) detected at line 19
+\T1/lmr/m/n/10.95 6.0.8. |
  []
 
 
 Package tocbasic Warning: number width of table toc entries should be increased
 !
-(tocbasic)                Currently used number width = 31.02489pt,
+(tocbasic)                Currently used number width = 25.5499pt,
 (tocbasic)                Wanted number separation    = 4.37993pt,
 (tocbasic)                Reserved number width       = 25.18501pt on input lin
 e 20.
 
 
-Overfull \hbox (5.83987pt too wide) detected at line 20
-\T1/lmr/m/n/10.95 10.1.3. |
+Overfull \hbox (0.36488pt too wide) detected at line 20
+\T1/lmr/m/n/10.95 6.0.9. |
  []
 
 
@@ -3068,66 +3251,14 @@ e 21.
 
 
 Overfull \hbox (5.83987pt too wide) detected at line 21
-\T1/lmr/m/n/10.95 10.1.4. |
- []
-
-
-Package tocbasic Warning: number width of table toc entries should be increased
-!
-(tocbasic)                Currently used number width = 31.02489pt,
-(tocbasic)                Wanted number separation    = 4.37993pt,
-(tocbasic)                Reserved number width       = 25.18501pt on input lin
-e 22.
-
-
-Overfull \hbox (5.83987pt too wide) detected at line 22
-\T1/lmr/m/n/10.95 10.1.5. |
- []
-
-
-Package tocbasic Warning: number width of table toc entries should be increased
-!
-(tocbasic)                Currently used number width = 31.02489pt,
-(tocbasic)                Wanted number separation    = 4.37993pt,
-(tocbasic)                Reserved number width       = 25.18501pt on input lin
-e 23.
-
-
-Overfull \hbox (5.83987pt too wide) detected at line 23
-\T1/lmr/m/n/10.95 10.2.1. |
- []
-
-
-Package tocbasic Warning: number width of table toc entries should be increased
-!
-(tocbasic)                Currently used number width = 31.02489pt,
-(tocbasic)                Wanted number separation    = 4.37993pt,
-(tocbasic)                Reserved number width       = 25.18501pt on input lin
-e 26.
-
-
-Overfull \hbox (5.83987pt too wide) detected at line 26
-\T1/lmr/m/n/10.95 12.1.1. |
- []
-
-
-Package tocbasic Warning: number width of table toc entries should be increased
-!
-(tocbasic)                Currently used number width = 31.02489pt,
-(tocbasic)                Wanted number separation    = 4.37993pt,
-(tocbasic)                Reserved number width       = 25.18501pt on input lin
-e 28.
-
-
-Overfull \hbox (5.83987pt too wide) detected at line 28
-\T1/lmr/m/n/10.95 13.2.1. |
+\T1/lmr/m/n/10.95 6.0.10. |
  []
 
 )
 \tf@lot=\write7
 \openout7 = `Fachbericht.lot'.
 
- [41
+ [53
 
 ] (Fachbericht.lof
 
@@ -3136,11 +3267,50 @@ d!
 (tocbasic)                Currently used number width = 25.5499pt,
 (tocbasic)                Wanted number separation    = 4.37993pt,
 (tocbasic)                Reserved number width       = 25.18501pt on input lin
+e 12.
+
+
+Overfull \hbox (0.36488pt too wide) detected at line 12
+\T1/lmr/m/n/10.95 6.0.1. |
+ []
+
+
+Package tocbasic Warning: number width of figure toc entries should be increase
+d!
+(tocbasic)                Currently used number width = 25.5499pt,
+(tocbasic)                Wanted number separation    = 4.37993pt,
+(tocbasic)                Reserved number width       = 25.18501pt on input lin
+e 13.
+
+
+Overfull \hbox (0.36488pt too wide) detected at line 13
+\T1/lmr/m/n/10.95 6.0.2. |
+ []
+
+
+Package tocbasic Warning: number width of figure toc entries should be increase
+d!
+(tocbasic)                Currently used number width = 25.5499pt,
+(tocbasic)                Wanted number separation    = 4.37993pt,
+(tocbasic)                Reserved number width       = 25.18501pt on input lin
 e 14.
 
 
 Overfull \hbox (0.36488pt too wide) detected at line 14
-\T1/lmr/m/n/10.95 8.1.1. |
+\T1/lmr/m/n/10.95 6.0.3. |
+ []
+
+
+Package tocbasic Warning: number width of figure toc entries should be increase
+d!
+(tocbasic)                Currently used number width = 25.5499pt,
+(tocbasic)                Wanted number separation    = 4.37993pt,
+(tocbasic)                Reserved number width       = 25.18501pt on input lin
+e 15.
+
+
+Overfull \hbox (0.36488pt too wide) detected at line 15
+\T1/lmr/m/n/10.95 6.0.4. |
  []
 
 
@@ -3153,46 +3323,59 @@ e 16.
 
 
 Overfull \hbox (0.36488pt too wide) detected at line 16
-\T1/lmr/m/n/10.95 9.1.1. |
+\T1/lmr/m/n/10.95 6.0.5. |
  []
 
 
 Package tocbasic Warning: number width of figure toc entries should be increase
 d!
-(tocbasic)                Currently used number width = 31.02489pt,
+(tocbasic)                Currently used number width = 25.5499pt,
+(tocbasic)                Wanted number separation    = 4.37993pt,
+(tocbasic)                Reserved number width       = 25.18501pt on input lin
+e 17.
+
+
+Overfull \hbox (0.36488pt too wide) detected at line 17
+\T1/lmr/m/n/10.95 6.0.6. |
+ []
+
+
+Package tocbasic Warning: number width of figure toc entries should be increase
+d!
+(tocbasic)                Currently used number width = 25.5499pt,
 (tocbasic)                Wanted number separation    = 4.37993pt,
 (tocbasic)                Reserved number width       = 25.18501pt on input lin
 e 18.
 
 
-Overfull \hbox (5.83987pt too wide) detected at line 18
-\T1/lmr/m/n/10.95 10.1.1. |
+Overfull \hbox (0.36488pt too wide) detected at line 18
+\T1/lmr/m/n/10.95 6.0.7. |
  []
 
 
 Package tocbasic Warning: number width of figure toc entries should be increase
 d!
-(tocbasic)                Currently used number width = 31.02489pt,
+(tocbasic)                Currently used number width = 25.5499pt,
 (tocbasic)                Wanted number separation    = 4.37993pt,
 (tocbasic)                Reserved number width       = 25.18501pt on input lin
 e 19.
 
 
-Overfull \hbox (5.83987pt too wide) detected at line 19
-\T1/lmr/m/n/10.95 10.1.2. |
+Overfull \hbox (0.36488pt too wide) detected at line 19
+\T1/lmr/m/n/10.95 6.0.8. |
  []
 
 
 Package tocbasic Warning: number width of figure toc entries should be increase
 d!
-(tocbasic)                Currently used number width = 31.02489pt,
+(tocbasic)                Currently used number width = 25.5499pt,
 (tocbasic)                Wanted number separation    = 4.37993pt,
 (tocbasic)                Reserved number width       = 25.18501pt on input lin
 e 20.
 
 
-Overfull \hbox (5.83987pt too wide) detected at line 20
-\T1/lmr/m/n/10.95 10.1.3. |
+Overfull \hbox (0.36488pt too wide) detected at line 20
+\T1/lmr/m/n/10.95 6.0.9. |
  []
 
 
@@ -3205,7 +3388,7 @@ e 21.
 
 
 Overfull \hbox (5.83987pt too wide) detected at line 21
-\T1/lmr/m/n/10.95 10.1.4. |
+\T1/lmr/m/n/10.95 6.0.10. |
  []
 
 
@@ -3218,7 +3401,7 @@ e 22.
 
 
 Overfull \hbox (5.83987pt too wide) detected at line 22
-\T1/lmr/m/n/10.95 10.1.5. |
+\T1/lmr/m/n/10.95 6.0.11. |
  []
 
 
@@ -3231,7 +3414,7 @@ e 23.
 
 
 Overfull \hbox (5.83987pt too wide) detected at line 23
-\T1/lmr/m/n/10.95 10.1.6. |
+\T1/lmr/m/n/10.95 6.0.12. |
  []
 
 
@@ -3244,7 +3427,7 @@ e 24.
 
 
 Overfull \hbox (5.83987pt too wide) detected at line 24
-\T1/lmr/m/n/10.95 10.1.7. |
+\T1/lmr/m/n/10.95 6.0.13. |
  []
 
 
@@ -3257,7 +3440,7 @@ e 25.
 
 
 Overfull \hbox (5.83987pt too wide) detected at line 25
-\T1/lmr/m/n/10.95 10.1.8. |
+\T1/lmr/m/n/10.95 6.0.14. |
  []
 
 
@@ -3270,59 +3453,59 @@ e 26.
 
 
 Overfull \hbox (5.83987pt too wide) detected at line 26
-\T1/lmr/m/n/10.95 10.1.9. |
+\T1/lmr/m/n/10.95 6.0.15. |
  []
 
 
 Package tocbasic Warning: number width of figure toc entries should be increase
 d!
-(tocbasic)                Currently used number width = 36.49988pt,
+(tocbasic)                Currently used number width = 31.02489pt,
 (tocbasic)                Wanted number separation    = 4.37993pt,
 (tocbasic)                Reserved number width       = 25.18501pt on input lin
 e 27.
 
 
-Overfull \hbox (11.31487pt too wide) detected at line 27
-\T1/lmr/m/n/10.95 10.1.10. |
+Overfull \hbox (5.83987pt too wide) detected at line 27
+\T1/lmr/m/n/10.95 6.0.16. |
  []
 
 
 Package tocbasic Warning: number width of figure toc entries should be increase
 d!
-(tocbasic)                Currently used number width = 36.49988pt,
+(tocbasic)                Currently used number width = 31.02489pt,
 (tocbasic)                Wanted number separation    = 4.37993pt,
 (tocbasic)                Reserved number width       = 25.18501pt on input lin
 e 28.
 
 
-Overfull \hbox (11.31487pt too wide) detected at line 28
-\T1/lmr/m/n/10.95 10.1.11. |
+Overfull \hbox (5.83987pt too wide) detected at line 28
+\T1/lmr/m/n/10.95 6.0.17. |
  []
 
 
 Package tocbasic Warning: number width of figure toc entries should be increase
 d!
-(tocbasic)                Currently used number width = 36.49988pt,
+(tocbasic)                Currently used number width = 31.02489pt,
 (tocbasic)                Wanted number separation    = 4.37993pt,
 (tocbasic)                Reserved number width       = 25.18501pt on input lin
 e 29.
 
 
-Overfull \hbox (11.31487pt too wide) detected at line 29
-\T1/lmr/m/n/10.95 10.1.12. |
+Overfull \hbox (5.83987pt too wide) detected at line 29
+\T1/lmr/m/n/10.95 6.0.18. |
  []
 
 
 Package tocbasic Warning: number width of figure toc entries should be increase
 d!
-(tocbasic)                Currently used number width = 36.49988pt,
+(tocbasic)                Currently used number width = 31.02489pt,
 (tocbasic)                Wanted number separation    = 4.37993pt,
 (tocbasic)                Reserved number width       = 25.18501pt on input lin
 e 30.
 
 
-Overfull \hbox (11.31487pt too wide) detected at line 30
-\T1/lmr/m/n/10.95 10.1.13. |
+Overfull \hbox (5.83987pt too wide) detected at line 30
+\T1/lmr/m/n/10.95 6.0.19. |
  []
 
 
@@ -3335,7 +3518,7 @@ e 31.
 
 
 Overfull \hbox (5.83987pt too wide) detected at line 31
-\T1/lmr/m/n/10.95 10.2.1. |
+\T1/lmr/m/n/10.95 6.0.20. |
  []
 
 
@@ -3348,7 +3531,20 @@ e 32.
 
 
 Overfull \hbox (5.83987pt too wide) detected at line 32
-\T1/lmr/m/n/10.95 10.2.2. |
+\T1/lmr/m/n/10.95 6.0.21. |
+ []
+
+
+Package tocbasic Warning: number width of figure toc entries should be increase
+d!
+(tocbasic)                Currently used number width = 31.02489pt,
+(tocbasic)                Wanted number separation    = 4.37993pt,
+(tocbasic)                Reserved number width       = 25.18501pt on input lin
+e 33.
+
+
+Overfull \hbox (5.83987pt too wide) detected at line 33
+\T1/lmr/m/n/10.95 6.0.22. |
  []
 
 
@@ -3361,7 +3557,20 @@ e 34.
 
 
 Overfull \hbox (5.83987pt too wide) detected at line 34
-\T1/lmr/m/n/10.95 11.1.1. |
+\T1/lmr/m/n/10.95 6.0.23. |
+ []
+
+
+Package tocbasic Warning: number width of figure toc entries should be increase
+d!
+(tocbasic)                Currently used number width = 31.02489pt,
+(tocbasic)                Wanted number separation    = 4.37993pt,
+(tocbasic)                Reserved number width       = 25.18501pt on input lin
+e 35.
+
+
+Overfull \hbox (5.83987pt too wide) detected at line 35
+\T1/lmr/m/n/10.95 6.0.24. |
  []
 
 
@@ -3374,7 +3583,20 @@ e 36.
 
 
 Overfull \hbox (5.83987pt too wide) detected at line 36
-\T1/lmr/m/n/10.95 12.1.1. |
+\T1/lmr/m/n/10.95 6.0.25. |
+ []
+
+
+Package tocbasic Warning: number width of figure toc entries should be increase
+d!
+(tocbasic)                Currently used number width = 31.02489pt,
+(tocbasic)                Wanted number separation    = 4.37993pt,
+(tocbasic)                Reserved number width       = 25.18501pt on input lin
+e 37.
+
+
+Overfull \hbox (5.83987pt too wide) detected at line 37
+\T1/lmr/m/n/10.95 6.0.26. |
  []
 
 
@@ -3387,16 +3609,160 @@ e 38.
 
 
 Overfull \hbox (5.83987pt too wide) detected at line 38
-\T1/lmr/m/n/10.95 13.1.1. |
+\T1/lmr/m/n/10.95 6.0.27. |
+ []
+
+
+Package tocbasic Warning: number width of figure toc entries should be increase
+d!
+(tocbasic)                Currently used number width = 31.02489pt,
+(tocbasic)                Wanted number separation    = 4.37993pt,
+(tocbasic)                Reserved number width       = 25.18501pt on input lin
+e 39.
+
+
+Overfull \hbox (5.83987pt too wide) detected at line 39
+\T1/lmr/m/n/10.95 6.0.28. |
+ []
+
+
+Package tocbasic Warning: number width of figure toc entries should be increase
+d!
+(tocbasic)                Currently used number width = 31.02489pt,
+(tocbasic)                Wanted number separation    = 4.37993pt,
+(tocbasic)                Reserved number width       = 25.18501pt on input lin
+e 40.
+
+
+Overfull \hbox (5.83987pt too wide) detected at line 40
+\T1/lmr/m/n/10.95 6.0.29. |
+ []
+
+[54
+
+]
+
+Package tocbasic Warning: number width of figure toc entries should be increase
+d!
+(tocbasic)                Currently used number width = 31.02489pt,
+(tocbasic)                Wanted number separation    = 4.37993pt,
+(tocbasic)                Reserved number width       = 25.18501pt on input lin
+e 41.
+
+
+Overfull \hbox (5.83987pt too wide) detected at line 41
+\T1/lmr/m/n/10.95 6.0.30. |
+ []
+
+
+Package tocbasic Warning: number width of figure toc entries should be increase
+d!
+(tocbasic)                Currently used number width = 31.02489pt,
+(tocbasic)                Wanted number separation    = 4.37993pt,
+(tocbasic)                Reserved number width       = 25.18501pt on input lin
+e 42.
+
+
+Overfull \hbox (5.83987pt too wide) detected at line 42
+\T1/lmr/m/n/10.95 6.0.31. |
+ []
+
+
+Package tocbasic Warning: number width of figure toc entries should be increase
+d!
+(tocbasic)                Currently used number width = 31.02489pt,
+(tocbasic)                Wanted number separation    = 4.37993pt,
+(tocbasic)                Reserved number width       = 25.18501pt on input lin
+e 43.
+
+
+Overfull \hbox (5.83987pt too wide) detected at line 43
+\T1/lmr/m/n/10.95 6.0.32. |
+ []
+
+
+Package tocbasic Warning: number width of figure toc entries should be increase
+d!
+(tocbasic)                Currently used number width = 31.02489pt,
+(tocbasic)                Wanted number separation    = 4.37993pt,
+(tocbasic)                Reserved number width       = 25.18501pt on input lin
+e 44.
+
+
+Overfull \hbox (5.83987pt too wide) detected at line 44
+\T1/lmr/m/n/10.95 6.0.33. |
+ []
+
+
+Package tocbasic Warning: number width of figure toc entries should be increase
+d!
+(tocbasic)                Currently used number width = 31.02489pt,
+(tocbasic)                Wanted number separation    = 4.37993pt,
+(tocbasic)                Reserved number width       = 25.18501pt on input lin
+e 45.
+
+
+Overfull \hbox (5.83987pt too wide) detected at line 45
+\T1/lmr/m/n/10.95 6.0.34. |
+ []
+
+
+Package tocbasic Warning: number width of figure toc entries should be increase
+d!
+(tocbasic)                Currently used number width = 31.02489pt,
+(tocbasic)                Wanted number separation    = 4.37993pt,
+(tocbasic)                Reserved number width       = 25.18501pt on input lin
+e 46.
+
+
+Overfull \hbox (5.83987pt too wide) detected at line 46
+\T1/lmr/m/n/10.95 6.0.35. |
+ []
+
+
+Package tocbasic Warning: number width of figure toc entries should be increase
+d!
+(tocbasic)                Currently used number width = 31.02489pt,
+(tocbasic)                Wanted number separation    = 4.37993pt,
+(tocbasic)                Reserved number width       = 25.18501pt on input lin
+e 47.
+
+
+Overfull \hbox (5.83987pt too wide) detected at line 47
+\T1/lmr/m/n/10.95 6.0.36. |
+ []
+
+
+Package tocbasic Warning: number width of figure toc entries should be increase
+d!
+(tocbasic)                Currently used number width = 31.02489pt,
+(tocbasic)                Wanted number separation    = 4.37993pt,
+(tocbasic)                Reserved number width       = 25.18501pt on input lin
+e 48.
+
+
+Overfull \hbox (5.83987pt too wide) detected at line 48
+\T1/lmr/m/n/10.95 6.0.37. |
+ []
+
+
+Package tocbasic Warning: number width of figure toc entries should be increase
+d!
+(tocbasic)                Currently used number width = 31.02489pt,
+(tocbasic)                Wanted number separation    = 4.37993pt,
+(tocbasic)                Reserved number width       = 25.18501pt on input lin
+e 49.
+
+
+Overfull \hbox (5.83987pt too wide) detected at line 49
+\T1/lmr/m/n/10.95 6.0.38. |
  []
 
 )
 \tf@lof=\write8
 \openout8 = `Fachbericht.lof'.
 
- [42
-
-]
+ [55]
 \openout2 = `parts/appendix.aux'.
 
  (parts/appendix.tex
@@ -3415,8 +3781,8 @@ Class scrreprt Warning: You are using `\begin{appendix}...\end{appendix}'.
 (scrreprt)              `\appendix' on input line 1.
 
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 112.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 112.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 113.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 113.
  (Fachbericht.aux (sections/abstract.aux) (parts/einleitung/Einleitung.aux)
 (parts/einleitung/Auftragsbeschreibung.aux) (parts/einleitung/Ziele.aux)
 (parts/einleitung/Konzept.aux)
@@ -3425,10 +3791,11 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 112.
 (parts/hardware/MCU.aux) (parts/hardware/RTC.aux) (parts/hardware/Sensoren.aux)
 (parts/hardware/Datenspeicherung.aux) (parts/hardware/Kommunikationsmodule.aux)
 (parts/hardware/Energieversorgung.aux) (parts/hardware/PCB.aux)
-(parts/abschluss/Konzeptvalidierung.aux) (parts/abschluss/Schluss.aux)
-(parts/Authentizitaetserklaerung.aux) (parts/appendix.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 112.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 112.
+(parts/hardware/Gehaeuse.aux) (parts/abschluss/Konzeptvalidierung.aux)
+(parts/abschluss/Schluss.aux) (parts/Authentizitaetserklaerung.aux)
+(parts/appendix.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 113.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 113.
 Package rerunfilecheck Info: File `Fachbericht.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
@@ -3438,41 +3805,46 @@ LaTeX Warning: There were undefined references.
 Package logreq Info: Writing requests to 'Fachbericht.run.xml'.
 \openout1 = `Fachbericht.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 112.
- ) 
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 113.
+ )
+(\end occurred inside a group at level 1)
+
+### simple group (level 1) entered at line 71 ({)
+### bottom level 
 Here is how much of TeX's memory you used:
- 53125 strings out of 492946
- 1116396 string characters out of 3126266
- 1811224 words of memory out of 3000000
- 55929 multiletter control sequences out of 15000+200000
- 634882 words of font info for 82 fonts, out of 3000000 for 9000
+ 53393 strings out of 492946
+ 1124178 string characters out of 3126266
+ 1817501 words of memory out of 3000000
+ 56124 multiletter control sequences out of 15000+200000
+ 637879 words of font info for 83 fonts, out of 3000000 for 9000
  1143 hyphenation exceptions out of 8191
- 76i,12n,85p,9197b,2890s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Users/mknup/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.en
-c}{C:/Users/mknup/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ts1.e
-nc}{C:/Users/mknup/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-math
-it.enc}{C:/Users/mknup/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-
-mathsy.enc}{C:/Users/mknup/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm
-/lm-rm.enc}<C:/Users/mknup/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public
-/lm/lmbx10.pfb><C:/Users/mknup/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
-blic/lm/lmbx12.pfb><C:/Users/mknup/AppData/Local/Programs/MiKTeX 2.9/fonts/type
-1/public/lm/lmmi10.pfb><C:/Users/mknup/AppData/Local/Programs/MiKTeX 2.9/fonts/
-type1/public/lm/lmmi12.pfb><C:/Users/mknup/AppData/Local/Programs/MiKTeX 2.9/fo
-nts/type1/public/lm/lmmi7.pfb><C:/Users/mknup/AppData/Local/Programs/MiKTeX 2.9
-/fonts/type1/public/lm/lmmi8.pfb><C:/Users/mknup/AppData/Local/Programs/MiKTeX 
-2.9/fonts/type1/public/lm/lmr10.pfb><C:/Users/mknup/AppData/Local/Programs/MiKT
-eX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Users/mknup/AppData/Local/Programs/M
-iKTeX 2.9/fonts/type1/public/lm/lmr17.pfb><C:/Users/mknup/AppData/Local/Program
-s/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Users/mknup/AppData/Local/Progr
-ams/MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Users/mknup/AppData/Local/P
-rograms/MiKTeX 2.9/fonts/type1/public/lm/lmro10.pfb><C:/Users/mknup/AppData/Loc
-al/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Users/mknup/AppDa
-ta/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Users/mknup/A
-ppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy8.pfb><C:/Users/mknu
-p/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb>
-Output written on Fachbericht.pdf (45 pages, 9542947 bytes).
+ 76i,12n,85p,9197b,3019s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Users/mknup/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvi
+ps/lm/lm-ec.enc}{C:/Users/mknup/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvi
+ps/lm/lm-ts1.enc}{C:/Users/mknup/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dv
+ips/lm/lm-mathit.enc}{C:/Users/mknup/AppData/Local/Programs/MiKTeX 2.9/fonts/en
+c/dvips/lm/lm-mathsy.enc}{C:/Users/mknup/AppData/Local/Programs/MiKTeX 2.9/font
+s/enc/dvips/lm/lm-rm.enc}<C:/Users/mknup/AppData/Local/Programs/MiKTeX 2.9/font
+s/type1/public/lm/lmbx10.pfb><C:/Users/mknup/AppData/Local/Programs/MiKTeX 2.9/
+fonts/type1/public/lm/lmbx12.pfb><C:/Users/mknup/AppData/Local/Programs/MiKTeX 
+2.9/fonts/type1/public/lm/lmmi10.pfb><C:/Users/mknup/AppData/Local/Programs/MiK
+TeX 2.9/fonts/type1/public/lm/lmmi7.pfb><C:/Users/mknup/AppData/Local/Programs/
+MiKTeX 2.9/fonts/type1/public/lm/lmmi8.pfb><C:/Users/mknup/AppData/Local/Progra
+ms/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Users/mknup/AppData/Local/Pro
+grams/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Users/mknup/AppData/Local/
+Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr17.pfb><C:/Users/mknup/AppData/Loc
+al/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Users/mknup/AppData/L
+ocal/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr9.pfb><C:/Users/mknup/AppData
+/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Users/mknup/App
+Data/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmro10.pfb><C:/Users/mknup
+/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Users
+/mknup/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/U
+sers/mknup/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy8.pfb><C
+:/Users/mknup/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pf
+b>
+Output written on Fachbericht.pdf (58 pages, 15183998 bytes).
 PDF statistics:
- 814 PDF objects out of 1000 (max. 8388607)
- 147 named destinations out of 1000 (max. 500000)
- 550 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 917 PDF objects out of 1000 (max. 8388607)
+ 192 named destinations out of 1000 (max. 500000)
+ 520 words of extra memory for PDF output out of 10000 (max. 10000000)
 

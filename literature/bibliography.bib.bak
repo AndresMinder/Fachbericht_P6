@@ -288,6 +288,15 @@
   urldate = {2019-07-24},
 }
 
+@Misc{74HC4050,
+  author  = {{Nexperia}},
+  title   = {{74HC4050 Hex non-inverting HIGH-to-LOW level shifter}},
+  year    = {2016},
+  type    = {techreport},
+  url     = {https://www.mouser.ch/datasheet/2/916/74HC4050-1598370.pdf},
+  urldate = {2019-07-24},
+}
+
 @Comment{jabref-meta: databaseType:biblatex;}
 
 % Encoding: UTF-8

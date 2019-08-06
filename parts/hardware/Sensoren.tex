@@ -1,13 +1,12 @@
-\chapter{Sensoren}
-\label{chap:Sensoren}
-Der grossteil der Sensorik wurde bereits während des Projekt 5 implementiert und in dessen Fachbericht dokumentiert. Die Dokumentation der bereits implementierten Sensoren wird in nachfolgendem Abschnitt inkludiert und darauf folgend der Sensor zur Messung der Sonnenstunden, welcher während der Bachelor-Thesis imeplementiert wurde, in einem separaten Abschnitt erläutert.\\
+\subsection{Sensoren}
+\label{subsec:Sensoren}
+Der grossteil der Sensorik wurde bereits während des Projekt 5 implementiert und in dessen Fachbericht dokumentiert. Die Dokumentation der bereits implementierten Sensoren wird in nachfolgendem Abschnitt inkludiert und darauf folgend die während der Bachelor-Thesis hinzugekommene Sensorik bzw. Ergänzungen in einem separaten Abschnitt erläutert.
 
-\section{Sensoren - Projekt 5}
-\subsection{Ombrometer}
+\subsubsection{Ombrometer - Projekt 5}
 
-\subsubsection*{Ermittlung der Niederschlagsmenge}
+\subsubsection*{\textbf{Ermittlung der Niederschlagsmenge}}
 Dieses Unterkapitel befasst sich mit der Realisierung der Niederschlagsmessung. Diese soll nach einem Kipplöffelprinzip funktionieren und gemäss definierten Zielen eine Genauigkeit von $\pm$100 ml/$m^2$ aufweisen. Ausserdem soll als alternative zusätzlich ein Messbecher an der Wetterstation installiert werden, damit der Bauer die Niederschlagsmenge anhand einer Skala ablesen kann. In einem ersten Schritt soll das Kipplöffelprinzip näher erläutert und mit einem Selbstbau die Funktionsweise getestet werden. Anschliessend soll ein gekaufter Sensor die Wetterstation erweitern und die Implementation in der Firmware thematisiert werden. Zu guter Letzt soll die Validierung des Teilsystems folgen.
-\subsubsection*{Das Kipplöffelprinzip}
+\subsubsection*{\textbf{Das Kipplöffelprinzip}}
 Das Prinzip des Kipplöffels wird in Abbildung \ref{fig:Kipp} graphisch dargestellt.
 
 \begin{figure}[h]
@@ -20,9 +19,9 @@ Das Prinzip des Kipplöffels wird in Abbildung \ref{fig:Kipp} graphisch dargeste
 Abbildung \ref{fig:Kipp} zeigt das Kipplöffelprinzip. Der Kipplöffel (\glqq 3)\grqq) besteht im Grunde aus zwei Löffeln und ist in der Mitte drehbar mit dem Gehäuse befestigt (\glqq 4)\grqq). Regenwasser wird über eine Öffnung im Gehäusedeckel (Trichter, \glqq 1)\grqq) zum Kipplöffel befördert (\glqq 2)\grqq). Ist der Löffel mit Regenwasser gefüllt, so kippt dieser aufgrund des Gewichts und leert das Wasser über eine Öffnung im Gehäuseboden (\glqq 5)\grqq) aus. Durch die Kippung wird der andere Löffel in die Ausgangsposition bewegt und kann sich nun mit Wasser füllen. Mit der Hilfe von Reedkontakten und Magneten wird die Anzahl der Kippbewegungen gezählt. Die Niederschlagsmenge ergibt sich aus der Anzahl Kippbewegungen, multipliziert mit dem Volumen des Kipplöffels.
 \newpage
 
-\subsubsection*{Die Realisierung des Niederschlagsmengensensors}
+\subsubsection*{\textbf{Die Realisierung des Niederschlagsmengensensors}}
 Um die Funktionsweise des Niederschlagsmengensensors  zu testen, wird, wie im Pflichtenheft festgehalten, dieser in einem ersten Schritt selbst erstellt. Die Erstellung kann in vier Etappen unterteilt werden. Die erste Etappe ist die Erstellung des Kipplöffels. Die zweite Etappe folgt mit der Erstellung der Drehbaren Lagerung. Als dritte Etappe folgt der Trichter und die vierte und letzte Etappe widmet sich dem Gehäuse, wobei der Trichter ein Teil des Gehäuses darstellt. Das Gehäuse wird, bei verwendung der Eigenproduktion, erst im Projekt 6 mit dem Gehäuse der gesamten Wetterstation erstellt.
-\paragraph{Etappe 1: Realisierung des Kipplöffels}
+\paragraph{\textbf{Etappe 1: Realisierung des Kipplöffels}}
 Wichtig für die Erstellung des Kipplöffels sind die Dimensionierung und die Materialwahl.
  
 Das Material soll wetterbeständig, einfach bearbeitbar und günstig sein und eine möglichst glatte Oberfläche haben. Die möglichst glatte Oberfläche ist notwendig, damit das Wasser im Kipplöffel sich nicht an der Oberfläche festhält und somit gut abfliesst. Acrylglas erfüllt diese Bedingungen und ist in jedem Baumarkt erhältlich, weshalb es als Material gewählt wird.
@@ -38,7 +37,7 @@ Die Dimensionierung ist Abhängig von der gewählten Genauigkeit im Pflichtenhef
 
 Abbildung \ref{fig:Etappe1} zeigt den selbsterstellten Kipplöffel aus Acrylglas. Die Drehachse ist mittig unter dem Kipplöffel befestigt und besteht aus einem Holzklotz mit je einer Schraube pro Seite.
 
-\paragraph{Etappe 2: Realisierung der drehbaren Lagerung}
+\paragraph{\textbf{Etappe 2: Realisierung der drehbaren Lagerung}}
 Die Drehbare Lagerung des Kipplöffels ist wichtig, damit der Kipplöffel auf beide Seiten kippen kann. Die Drehachse soll direkt unterhalb der Mitte des Kipplöffels befestigt sein um ein gleichmässiges Kippen zu ermöglichen. Die Höhe des Kipplöffels wird definiert durch die einstellbare Höhe der Drehachsenlagerung. 
 
 Die Drehachse wird aus einem Stück Holz und zwei Schrauben gefertigt, wobei das Holz direkt am Kipplöffel befestigt wird. Die zwei Schrauben werden auf einem höhenverstellbarem Gerüst gelagert, so dass ein drehen möglich ist. Dieses Gerüst wird auch aus Holz gefertigt und enthält eine Metallische Fläche an der Kontaktstelle der zuvor erwähnten Schrauben, um aufkommende Reibkräfte zu verringern. Ausserdem ist dieses Gerüst höhenverstellbar über zwei mit Muttern feststellbaren Gewinden (für jede Seite eine). 
@@ -52,27 +51,26 @@ Die Drehachse wird aus einem Stück Holz und zwei Schrauben gefertigt, wobei das
 
 Abbildung \ref{fig:Etappe2} zeigt das selbsterstellte Gerüst für die Höhenverstellbare, drehbare Lagerung des Kipplöffels. Es kann sowohl die Höhe des Kipplöffels, sowie dessen Neigung in den Endpositionen über Gewinden mit Muttern eingestellt werden. Die Schrauben des Kipplöffels kommen auf einen Stahlnagel zu liegen, womit Reibungsverluste gering gehalten werden.
 
-\paragraph{Etappe 3: Realisierung des Trichters}
+\paragraph{\textbf{Etappe 3: Realisierung des Trichters}}
 Der Trichter sorgt dafür, dass der Regen, welcher auf die Trichterfläche fällt, über der Mitte des Kipplöffels in den Löffel fliesst. Die Trichterfläche stellt gleichzeitig die Referenzfläche dar, da die gesamte Regenmenge dieser Fläche über den Kipplöffel erfasst wird. Ist diese Fläche von 1 $m^2$ abweichend, so muss in der Firmware ein Skalierungsfaktor implementiert werden, damit die Regenmenge wie gewünscht gemäss Pflichtenheft ermittelt werden kann. Der Trichter wird aus demselben Material gefertigt wie der Kipplöffel, da hier die gleichen Anforderungen gelten. Es sei angemerkt, dass der Trichter nur bei weiteren Verwendung des selbst erstellten Kipplöffels, zusammen mit dem Gehäuse der gesamten Wetterstation, erstellt wird.
 
-\paragraph{Etappe 4: Realisierung des Gehäuses}
+\paragraph{\textbf{Etappe 4: Realisierung des Gehäuses}}
 Das Gehäuse soll den Sensor vor ungewollten äusseren Einflüssen schützen, sowie umgebende Elektronik vor eventuellen Regenwasserspritzer. Ausserdem soll ein Schaltkreis mit Reedrelais implementiert werden, damit die Kippbewegungen von der Elektronik erfasst werden können. Es sei erwähnt, dass das Gehäuse nur bei weiteren Verwendung des selbst erstellten Sensors, zusammen mit dem Gehäuse der Wetterstation, konstruiert wird.
 
-\paragraph{Implementierung des Schaltkreises}
+\paragraph{\textbf{Implementierung des Schaltkreises}}
 Der Schaltkreis, welcher die Kippbewegungen feststellen soll, besteht im wesentlichen aus einem Reedrelais und einem Permanentmagneten. Das Reedrelais ist NO (Normally Open) und wirkt als stromkreisschliessender Schalter, sobald ein magnetisches Feld (z.B. das eines Permanentmagneten) sich in unmittelbarer Nähe befindet. Der Permanentmagnet wird auf dem Kipplöffel befestigt und das Reedrelais als Gegenstück an einem Fixpunkt in der Nähe. Wichtig dabei ist, dass das Reedrelais bei den Endpositionen des Kipplöffels nicht geschlossen ist, damit der Stromkreis geöffnet ist und Strom gespart werden kann. Das Reedrelais benötigt einen seriellen Widerstand, damit bei einem schliessen des Stromkreises kein Kurzschluss auftritt. Ausserdem soll ein Kondensator parallel zum Widerstand sein, um die Speisespannung zu glätten und so ein nutzbares Signal zu erhalten. Die Speisespannung stellt den Pegel für ein schliessen des Reedrelais, und somit auch für eine Kippbewegung dar. Um die Kippbewegungen zu zählen, kann somit entweder jede steigende oder jede fallende Flanke des Signals gezählt werden.  
 
 \begin{figure}[h]
 \centering
-\includegraphics[width=0.4\linewidth]{graphics/KippSchalt.jpg}
+\includegraphics[width=0.35\linewidth]{graphics/KippSchalt.jpg}
 \caption{Schaltkreis zur detektion der Kippbewegung.}
 \label{fig:KippSchalt}
 \end{figure}
 
 Abbildung \ref{fig:KippSchalt} zeigt den Schaltkreis zur detektion der Kippbewegung. Benutzt wurde ein 10k$\Omega$ Widerstand mit einem parallel angeschlossenen 100nF Kondensator. Der Reedkontakt reagiert auf den ebenso sichtbaren Permanentmagneten, welcher an der Unterseite des Kipplöffels befestigt ist.
-
 \newpage
-\paragraph{Nachteile des Selbstgebauten Niederschlagsmengensensor}
-Der selbstgebaute Niederschlagssensor beweist, dass das Prinzip des Kipplöffels funktioniert. Dennoch weist der Selbstbau Mängel auf. Der verwendete Permanentmagnet muss geklebt werden, weshalb dessen Magnetfeld massiv an stärke verliert und die Schaltung deshalb äusserst nahe angebracht werden muss. Ausserdem kam es, dadurch dass keine Werkstatt zugänglich war, zu Improvisation bei nahezu allen Fertigungsschritten, was zu unkalkulierbaren Abweichungen führt. Als Beispiel sei das Spiel der drehbaren Lagerung des Kipplöffels auf dem Gerüst angeführt, was jegliche Justierungsversuche der Niederschlagsmenge beeinflusst. Aus den genannten Gründen wird vorgefertigter Sensor mit Kipplöffelprinzip verwendet.\\
+\paragraph{\textbf{Nachteile des Selbstgebauten Niederschlagsmengensensor}}
+Der selbstgebaute Niederschlagssensor beweist, dass das Prinzip des Kipplöffels funktioniert. Dennoch weist der Selbstbau Mängel auf. Der verwendete Permanentmagnet muss geklebt werden, weshalb dessen Magnetfeld massiv an stärke verliert und die Schaltung deshalb äusserst nahe angebracht werden muss. Ausserdem kam es, dadurch dass keine Werkstatt zugänglich war, zu Improvisation bei nahezu allen Fertigungsschritten, was zu unkalkulierbaren Abweichungen führt. Als Beispiel sei das Spiel der drehbaren Lagerung des Kipplöffels auf dem Gerüst angeführt, was jegliche Justierungsversuche der Niederschlagsmenge beeinflusst. Aus den genannten Gründen wird vorgefertigter Sensor mit Kipplöffelprinzip verwendet.
 
 \begin{figure}[hbtp]
 \centering
@@ -81,7 +79,7 @@ Der selbstgebaute Niederschlagssensor beweist, dass das Prinzip des Kipplöffels
 \label{fig:verwendetes_ombrometer}
 \end{figure}
 
-Das verwendete Ombrometer von MISOL hat eine Auflösung von ca. 2ml pro Kippbewegung auf auf die Dimensionen $5.5E-2m*11.5E-2m$ des Trichters. Zudem enthält der Trichter oben noch eine kleine Wasserwaage, damit das Ombrometer auch gerade steht und die gemessene Regenmenge nicht verfälscht wird.\\
+Das verwendete Ombrometer von MISOL hat eine Auflösung von ca. 2ml pro Kippbewegung auf auf die Dimensionen $5.5E-2m*11.5E-2m$ des Trichters. Zudem enthält der Trichter oben noch eine kleine Wasserwaage, damit das Ombrometer auch gerade steht und die gemessene Regenmenge nicht verfälscht wird.
 
 %\subsubsection*{Implentation in der Firmware}
 %Die Implementation wurde über einen Interrupt-Pin des ATMega2560 gemacht. Jedes mal wenn der Kipplöffel des Ombrometers kippt, wird ein Interrupt der auf die steigende Flanke des anliegenden Signals getriggert ist ausgeführt, welcher einen Counter für das Ombrometer inkrementiert. Eine Kippbewegung des Ombrometers umfasst ca. 2ml auf eine Fläche von $5.5E-2m*11.5E-2m=\underline{\underline{6.325E-3m^{2}}}$. Hochgerechnet auf einen Quadratmeter ergibt sich
@@ -90,7 +88,7 @@ Das verwendete Ombrometer von MISOL hat eine Auflösung von ca. 2ml pro Kippbewe
 %\end{equation}
 %benötigter Niederschlag für eine Kippbewegung des Ombrometers pro Quadratmeter. Nun kann die Niederschlagmenge in einem bestimmten Zeitraum ausgegeben werden.\\
 
-\subsection{Anemometer}
+\subsubsection{Anemometer - Projekt 5}
 {\begin{minipage}[b][650pt][t]{0.55\textwidth}
 Für die Windgeschwindigkeitsmessung wurde ein Ersatz Anemometer von Froggit genommen (Abb. \ref{fig:anemometer}). Das Anschlusskabel hat einen vier poligen RJ-11 Stecker, dessen Signal über eine Buchse zum MCU geführt wird. Das Anemometer selbst hat allerdings nur zwei Anschlüsse, die Speisung (rot) und das durch einen mit einem Dauermagneten schließbaren Reedkontakt modulierte pulsförmige Ausgangssignal (grün, Abb. \ref{fig:rj11stecker}). In der Abb. \ref{fig:beschaltungAnemometer} ist ersichtlich, dass das Ausgangssignal über R1 abfällt und C1 als Spannungsstabilisierung dient. Das daraus resultierende Signal ist in der Abb. \ref{fig:rechteckpuls_anemometer} aufgezeigt. Die Windgeschwindigkeit ist nun aus der Anzahl Rechteckpulsen direkt interpretierbar:\\
 
@@ -102,7 +100,7 @@ Wenn über einen Zeitraum $T$ die Anzahl Pulse $A$ gemessen werden, dann kann au
 geschlossen werden. Da allerdings verschiedene Faktoren wie das Trägheitsmoment des Schalenkreuzes, Reibungsverluste bei der Drehbewegung, Verfälschung bei wechselnder Windrichtung usw. zusätzlich auf das Anemometer wirken, wird es sehr komplex die Windgeschwindigkeit exakt zu berechnen. Deshalb wird nur ein Näherungswert ermittelt und mit einem Skalierungsfaktor $SF$ korrigiert. Somit ergibt sich für die Windgeschwindigkeit $v_{Wind}$ mit Radius $r$ des Schalenkreuzes
 \begin{equation}
 \centering
-v_{Wind} = \frac{A*r*SF}{T}\qquad[m/s].
+v_{Wind} = \frac{A\cdot r\cdot SF}{T}\qquad[m/s].
 \label{equ:berechnungWindgeschwindigkeit}
 \end{equation}
 Der Skalierungsfaktor $SF$ wird mittels Referenzmessungen der Windgeschwindigkeit eines digitalen Anemometers eruiert. \\
@@ -130,7 +128,7 @@ Der Skalierungsfaktor $SF$ wird mittels Referenzmessungen der Windgeschwindigkei
 %\subsubsection*{Implementation in die Firmware}
 %Die Implementation wurde recht simpel gehalten. Der gesamte implementierte Code für das Anemometer ist im Headerfile ''Anemometer.h'' extern deklariert und im File Anemometer.cpp initialisiert. Das Signal $V_{out}$ ist mit einen digital Pin des Atmega 2560 (Pinnummer 2 des Arduino Mega Boards) verbunden. Über einen Zeitraum von $5000ms$, auf die steigende Flanke getriggert, wird die Anzahl von Pulsen mittels Interrupt\footnote{es handelt sich hierbei um \textit{external Interrupts}.} gezählt. Dabei wird zuerst der Interrupt auf der Pinnummer 2 aktiviert, mit einem Delay von $5000ms$ gewartet, wobei bei jedem ausgelösten Interrupt die Funktion \textcolor{orange}{countWind}() ausgeführt und somit bei jeder steigenden Flanke um eins inkrementiert wird. Zum Schluss folgt die Deaktivierung des Interrupts und die Berechnung der Windgeschwindigkeit nach der Gleichung \ref{equ:berechnungWindgeschwindigkeit}.\\
 
-\subsection{Windrichtungsgeber}
+\subsubsection{Windrichtungsgeber - Projekt 5}
 {\begin{minipage}[b][10cm][t]{0.55\textwidth}
 Um die Windrichtung angeben zu können, wurde ein Windrichtungsgeber, wie in Abb. \ref{fig:windrichtungsgeber} gezeigt von MISOL verwendet. Er ist genau wie das Ombrometer und das Anemometer mit Reedkontakten realisiert worden (siehe Abb. \ref{fig:interne_schaltung}). Dafür sind acht Reedkontakte im Kreis angeordnet und jeder hat einen in Serie geschalteten Widerstand von unterschiedlichen Dimensionen. Der Dauermagnet kann, je nach Drehwinkel bis zu zwei Reedkontakte gleichzeitig schließen. Dies erlaubt sechzehn verschiedene Winkelpositionen und somit eine Auflösung von 22.5$^{o}$. Mit einem externen Widerstand $R=10k\Omega$ (siehe Abb. \ref{fig:aussere_beschaltung}) wird eine Spannung generiert, welche dann mit dem ADC des Microcontrollers gelesen werden kann. Der Windrichtungsgeber wird mit einer Speisespannung von $V_{+}=5V$ betrieben. Der Windrichtungsgeber hat einen vierpoligen RJ-11 Anschluss. Zudem hat er auf der unteren Seite noch eine RJ-11 Buchse, bei der das Anemometer direkt angeschlossen werden kann. Wie diese Anschlüsse gemapped sind, wird in der Abb. \ref{fig:interne_schaltung} gezeigt. \\
 \end{minipage}}
@@ -223,7 +221,7 @@ In der Tabelle \ref{tab:technische_werte} sind die Widerstandswerte der in Abb. 
 %\end{equation}
 %Diese von \textit{analogRead()} abhängige Ausgangsspannung $V_{out}$ wird dann in \textit{if else} Anweisungen zu der Himmelsrichtung zugewiesen und als String abgespeichert.
 
-\subsection{BME280}
+\subsubsection{BME280 - Projekt 5}
 \label{BME280}
 {\begin{minipage}[b][6cm][t]{0.55\textwidth}
 Der \textit{BME280} ist ein low powered digitaler Feuchtigkeits-, Luftdruck- und Temperatursensor von Bosch. Er ist in einem 2.5mm x 2.5mm x 0.93mm metal lid LGA Gehäuse verpackt und kann über die Interfaces I$^{2}$C und SPI kommunizieren. Durch seinen niedrigen Stromverbrauch, große operating range der drei Messgrößen und schnellen Ansprechzeit von etwa 1s eignet er sich für die solarbetriebene mobile Wetterstation besonders. \cite{Bosch2019}\\
@@ -260,7 +258,7 @@ Der \textit{BME280} ist ein low powered digitaler Feuchtigkeits-, Luftdruck- und
 
 Bei einer Messfrequenz von 1Hz für die drei Messgrößen verbraucht der BME280 somit laut Datenblatt nur \textbf{3.6$\mu$A}. \cite[S. 2]{Bosch2019}
 
-\subsubsection*{Feuchtigkeitsmessung}
+\subsubsection*{\textbf{Feuchtigkeitsmessung}}
 In der Tabelle \ref{tab:spez_feuchtigkeit} sind die wichtigsten Parameter zur Feuchtigkeitsmessung aufgelistet. Zu vermerken ist, dass die digitalen Werte des BME280 zur Feuchtigkeitsmessung relativ sind und deshalb prozentual angegeben werden. \\
 \begin{table}[htbp]
   \centering
@@ -282,7 +280,7 @@ In der Tabelle \ref{tab:spez_feuchtigkeit} sind die wichtigsten Parameter zur Fe
 
 \newpage
 
-\subsubsection*{Luftdruckmessung}
+\subsubsection*{\textbf{Luftdruckmessung}}
 Die Genauigkeit der Luftdruckmessung ist an einen Temperaturbereich gebunden. Bei niedrigeren Temperaturen (<0$^{o}$C) weist der Sensor eine höhere Unsicherheit auf als bei Temperaturen von 0 bis 65 $^{o}$C (siehe Tabelle \ref{tab:spez_druck}). \\
 \begin{table}[htbp]
   \centering
@@ -302,7 +300,7 @@ Die Genauigkeit der Luftdruckmessung ist an einen Temperaturbereich gebunden. Be
   \label{tab:spez_druck}%
 \end{table}%
 
-\subsubsection*{Temperaturmessung}
+\subsubsection*{\textbf{Temperaturmessung}}
 Die Wetterstation wird hauptsächlich in einem Temperaturbereich von 0 bis 65 $^{o}$C betrieben, wodurch vom Sensor eine Unsicherheit von max. $\pm$1 $^{o}$C erreicht werden kann. \\
 \begin{table}[htbp]
   \centering
@@ -335,11 +333,11 @@ Die Wetterstation wird hauptsächlich in einem Temperaturbereich von 0 bis 65 $^
 %\item \textcolor{blue}{float} \textcolor{orange}{readPressure}()
 %\end{itemize}
 
-\section{Ergänzungen aus der Bachelor-Thesis}
-Während der Bachelor-Thesis soll ein Sensor zur Ermittlung der Sonnenstunden implementiert werden. Um dies zu erreichen wurde die Idee, die Sonnenstunden direkt über den Ladestrom der Photovoltaikanlage zu eruieren, verworfen, da auf diese Weise mit höheren Energieverlusten zu rechnen wäre durch das Abzweigen des Ladestroms und die damit verbundene zusätzliche Speisung der Schaltung. Stattdessen wird über ein Lichtintensitätssensor die Bestrahlungsstärke gemessen, womit die Sonnenstunden über einen Schwellwert berechnet werden können. Im folgenden Abschnitt wird der verwendete Lichtintensitätssensor näher erläutert.
+\subsection{Ergänzungen aus der Bachelor-Thesis}
+Während der Bachelor-Thesis soll ein Sensor zur Ermittlung der Sonnenstunden implementiert werden. Um dies zu erreichen wurde die Idee, die Sonnenstunden direkt über den Ladestrom der Photovoltaikanlage zu eruieren, verworfen, da auf diese Weise mit höheren Energieverlusten zu rechnen wäre durch das Abzweigen des Ladestroms und die damit verbundene zusätzliche Speisung der zusätzlichen Schaltung. Stattdessen wird über ein Lichtintensitätssensor die Bestrahlungsstärke gemessen, womit die Sonnenstunden über einen Schwellwert berechnet werden können. Im folgenden Abschnitt wird der verwendete Lichtintensitätssensor näher erläutert.
 
-\subsection{Lichtintensitätssensor}
-Die Lichtintensität wird über den TSL2561, ein digitaler low power Sensor, eruiert. Dieser misst über eine Kombination aus einer Breitband-Photodiode und einer Infrarot-Photodiode die Lichtstärke mit einer 16-Bit Auflösung. Über zwei integrierte AD-Wandler wird der Photodiodenstrom gewandelt und auf einen digitalen Ausgang gegeben. Über eine I$^{2}$C Schnittstelle kann dieser Ausgang auf die MCU gegeben und so ausgewertet werden. Ab einem bestimmten Schwellenwert kann die Einstrahlung als direkte Sonnenstrahlung definiert, und so auch gezählt werden. Der erwähnte Schwellenwert ist vom Ort abhängig an dem die Wetterstation sich befindet und muss eruiert und in der Firmware eingestellt werden, was im entsprechenden Teil (\refname{part:Firmware} \ref{part:Firmware})) erläutert wird. Da dieser Sensor nicht direkt auf der Platine sondern am oberen Teil des Gehäuses montiert werden muss, wird der TSL2561 als Breakout Board (Abbildung \ref{fig:TSL}) verwendet und über Pinheader mit dem PCB verbunden. Die wichtigsten elektrischen Spezifikationen sind in der Tabelle \ref{tab:TSL2561} zusammengefasst. \cite{TSL2561}\\
+\subsubsection{Lichtintensitätssensor}
+Die Lichtintensität wird über den TSL2561, ein digitaler low power Sensor, eruiert. Dieser misst über eine Kombination aus einer Breitband-Photodiode und einer Infrarot-Photodiode die Lichtstärke mit einer 16-Bit Auflösung. Über zwei integrierte AD-Wandler wird der Photodiodenstrom gewandelt und auf einen digitalen Ausgang gegeben. Über eine I$^{2}$C Schnittstelle kann dieser Ausgang auf die MCU gegeben und so ausgewertet werden. Ab einem bestimmten Schwellenwert kann die Einstrahlung als direkte Sonnenstrahlung definiert, und so auch gezählt werden. Der erwähnte Schwellwert ist vom Ort abhängig an dem die Wetterstation sich befindet und muss eruiert und in der Firmware eingestellt werden, was im entsprechenden Teil (\refname{part:Firmware} \ref{part:Firmware})) erläutert wird. Da dieser Sensor nicht direkt auf der Platine sondern am oberen Teil des Gehäuses montiert werden muss, wird der TSL2561 als Breakout Board (Abbildung \ref{fig:TSL}) verwendet und über Pinheader mit dem PCB verbunden. Die wichtigsten elektrischen Spezifikationen sind in der Tabelle \ref{tab:TSL2561} zusammengefasst. \cite{TSL2561}\\
 
 \begin{figure}[hbtp]
 \centering
@@ -362,8 +360,8 @@ Die Lichtintensität wird über den TSL2561, ein digitaler low power Sensor, eru
     \end{tabular}%
   \label{tab:TSL2561}%
 \end{table}%
-
-\subsection{BME280}
+\newpage
+\subsubsection{BME280}
 Im Verlauf der Bachelor-Thesis wurde über das Design des Gehäuses der Wetterstation diskutiert, dabei wurde ebenfalls die Notwendigkeit eines Zugangs zu frischer Umgebungsluft für den BME280 erwähnt. Würde der BME280 auf dem PCB angebracht werden, so würde dieser durch die Abwärme der Elektronik stärker beeinflusst und Fehlmessungen generieren. Aus diesem Grund soll der BME280 an der unteren Seite des Gehäuses, zugänglich zu frischer Aussenluft, montiert werden. Damit Fehlmessungen möglichst vermieden werden können, wird wie beim TSL2561 für den BME280 ein Breakout Board verwendet (Abbildung \ref{fig:BME_Breakout}) und über Pinheader mit dem PCB verbunden.\\
 
 \begin{figure}[hbtp]
@@ -372,3 +370,5 @@ Im Verlauf der Bachelor-Thesis wurde über das Design des Gehäuses der Wetterst
 \captionof{figure}{BME280 Breakout Board von Adafruit \cite{BME_Breakout}}
 \label{fig:BME_Breakout}
 \end{figure}
+
+Die gesammelten Daten der Sensorik werden an die MCU geliefert. Die MCU kann jedoch nicht alle Daten speichern, weshalb ein grösserer, externer Speicher notwendig ist. Aus diesem Grund wird im nächsten Kapitel auf die Datenspeicherung eingegangen.
