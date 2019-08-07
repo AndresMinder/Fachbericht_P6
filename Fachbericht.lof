@@ -36,18 +36,17 @@
 \contentsline {figure}{\numberline {6.0.25}{\ignorespaces Konzept der Energieversorgung\relax }}{33}{figure.caption.45}% 
 \contentsline {figure}{\numberline {6.0.26}{\ignorespaces 6V 6W Solarpanel von Adafruit \cite {Solarpanel}\relax }}{35}{figure.caption.49}% 
 \contentsline {figure}{\numberline {6.0.27}{\ignorespaces Schematische Darstellung der ChargePump.\relax }}{36}{figure.caption.51}% 
-\contentsline {figure}{\numberline {6.0.28}{\ignorespaces Das noch unbest\IeC {\"u}ckte PCB mit den wichtigsten Dimensionen.\relax }}{39}{figure.caption.61}% 
-\contentsline {figure}{\numberline {6.0.29}{\ignorespaces Gesamtansicht des Designs des Bodens.\relax }}{41}{figure.caption.63}% 
-\contentsline {figure}{\numberline {6.0.30}{\ignorespaces Design des Schraubenblocks des Bodens.\relax }}{41}{figure.6.30}% 
-\contentsline {figure}{\numberline {6.0.31}{\ignorespaces Aussparungen f\IeC {\"u}r Bauteile, welche aus dem Geh\IeC {\"a}use hinausragen.\relax }}{42}{figure.caption.64}% 
-\contentsline {figure}{\numberline {6.0.32}{\ignorespaces Seitenwand f\IeC {\"u}r den BME280-Extraraum mit Luftschlitzen.\relax }}{42}{figure.caption.65}% 
-\contentsline {figure}{\numberline {6.0.33}{\ignorespaces Gesamtansicht des Designs des Deckels.\relax }}{43}{figure.caption.66}% 
-\contentsline {figure}{\numberline {6.0.34}{\ignorespaces Schraubenversenkung im Deckel.\relax }}{43}{figure.6.34}% 
-\contentsline {figure}{\numberline {6.0.35}{\ignorespaces Aussparungen f\IeC {\"u}r Bauteile, welche aus dem Geh\IeC {\"a}use hinausragen und der designte Extraraum f\IeC {\"u}r den BME280 mit Luftschlitzen.\relax }}{44}{figure.caption.67}% 
-\contentsline {figure}{\numberline {6.0.36}{\ignorespaces \IeC {\"O}ffnung und Bohrungen f\IeC {\"u}r den TSL2561 und den BME280.\relax }}{44}{figure.caption.68}% 
-\contentsline {figure}{\numberline {6.0.37}{\ignorespaces Design des Randes vom Boden zum Deckel hin.\relax }}{45}{figure.6.37}% 
-\contentsline {figure}{\numberline {6.0.38}{\ignorespaces Design des Randes vom Deckel zum Boden hin.\relax }}{45}{figure.6.38}% 
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {6.0.28}{\ignorespaces Das noch unbest\IeC {\"u}ckte PCB mit den wichtigsten Dimensionen.\relax }}{41}{figure.caption.61}% 
+\contentsline {figure}{\numberline {6.0.29}{\ignorespaces Gesamtansicht des Designs des Bodens.\relax }}{43}{figure.caption.63}% 
+\contentsline {figure}{\numberline {6.0.30}{\ignorespaces Design des Schraubenblocks des Bodens.\relax }}{43}{figure.6.30}% 
+\contentsline {figure}{\numberline {6.0.31}{\ignorespaces Aussparungen f\IeC {\"u}r Bauteile, welche aus dem Geh\IeC {\"a}use hinausragen.\relax }}{44}{figure.caption.64}% 
+\contentsline {figure}{\numberline {6.0.32}{\ignorespaces Seitenwand f\IeC {\"u}r den BME280-Extraraum mit Luftschlitzen.\relax }}{44}{figure.caption.65}% 
+\contentsline {figure}{\numberline {6.0.33}{\ignorespaces Gesamtansicht des Designs des Deckels.\relax }}{45}{figure.caption.66}% 
+\contentsline {figure}{\numberline {6.0.34}{\ignorespaces Schraubenversenkung im Deckel.\relax }}{45}{figure.6.34}% 
+\contentsline {figure}{\numberline {6.0.35}{\ignorespaces Aussparungen f\IeC {\"u}r Bauteile, welche aus dem Geh\IeC {\"a}use hinausragen und der designte Extraraum f\IeC {\"u}r den BME280 mit Luftschlitzen.\relax }}{46}{figure.caption.67}% 
+\contentsline {figure}{\numberline {6.0.36}{\ignorespaces \IeC {\"O}ffnung und Bohrungen f\IeC {\"u}r den TSL2561 und den BME280.\relax }}{46}{figure.caption.68}% 
+\contentsline {figure}{\numberline {6.0.37}{\ignorespaces Design des Randes vom Boden zum Deckel hin.\relax }}{47}{figure.6.37}% 
+\contentsline {figure}{\numberline {6.0.38}{\ignorespaces Design des Randes vom Deckel zum Boden hin.\relax }}{47}{figure.6.38}% 
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

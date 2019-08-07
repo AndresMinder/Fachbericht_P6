@@ -37,17 +37,17 @@
 \contentsline {subsubsection}{\nonumberline Einfluss der Photovoltaik}{35}{section*.48}% 
 \contentsline {subsubsection}{\nonumberline ChargePump und Linearregler}{36}{section*.50}% 
 \contentsline {subsection}{\numberline {6.0.9}PCB}{38}{subsection.6.0.9}% 
-\contentsline {subsubsection}{\nonumberline Das Best\IeC {\"u}cken der Leiterplatte}{38}{section*.54}% 
-\contentsline {subsubsection}{\nonumberline M\IeC {\"a}ngel der Erstversion}{38}{section*.56}% 
-\contentsline {subsubsection}{\nonumberline Verbesserungen f\IeC {\"u}r die Zweitversion}{38}{section*.58}% 
-\contentsline {subsection}{\numberline {6.0.10}Das Geh\IeC {\"a}use}{39}{subsection.6.0.10}% 
-\contentsline {subsubsection}{\nonumberline Wichtige Merkmale}{39}{section*.60}% 
-\contentsline {subsubsection}{\nonumberline Das Design}{40}{section*.62}% 
-\contentsline {part}{\numberline {IV}Abschluss}{46}{part.4}% 
-\contentsline {chapter}{\numberline {7}Konzeptvalidierung}{47}{chapter.7}% 
-\contentsline {chapter}{\numberline {8}Schluss}{48}{chapter.8}% 
-\contentsline {chapter}{\numberline {9}Authentizit\IeC {\"a}tserkl\IeC {\"a}rung}{49}{chapter.9}% 
-\contentsline {part}{\numberline {V}Referenzen}{50}{part.5}% 
-\contentsline {chapter}{\nonumberline Literatur}{51}{chapter*.69}% 
-\contentsline {chapter}{Tabellenverzeichnis}{53}{chapter*.70}% 
-\contentsline {chapter}{Abbildungsverzeichnis}{54}{chapter*.71}% 
+\contentsline {subsubsection}{\nonumberline Das Best\IeC {\"u}cken der Leiterplatte}{38}{section*.53}% 
+\contentsline {subsubsection}{\nonumberline M\IeC {\"a}ngel der Erstversion und dessen Verbesserungen}{39}{section*.57}% 
+\contentsline {subsection}{\numberline {6.0.10}Das Geh\IeC {\"a}use}{41}{subsection.6.0.10}% 
+\contentsline {subsubsection}{\nonumberline Wichtige Merkmale}{41}{section*.60}% 
+\contentsline {subsubsection}{\nonumberline Das Design}{42}{section*.62}% 
+\contentsline {part}{\numberline {IV}Abschluss}{48}{part.4}% 
+\contentsline {subsection}{\numberline {6.0.11}Konzeptvalidierung}{49}{subsection.6.0.11}% 
+\contentsline {subsubsection}{\nonumberline Validierung der Hardware}{49}{section*.69}% 
+\contentsline {chapter}{\numberline {7}Schluss}{51}{chapter.7}% 
+\contentsline {chapter}{\numberline {8}Authentizit\IeC {\"a}tserkl\IeC {\"a}rung}{52}{chapter.8}% 
+\contentsline {part}{\numberline {V}Referenzen}{53}{part.5}% 
+\contentsline {chapter}{\nonumberline Literatur}{54}{chapter*.82}% 
+\contentsline {chapter}{Tabellenverzeichnis}{56}{chapter*.83}% 
+\contentsline {chapter}{Abbildungsverzeichnis}{57}{chapter*.84}% 
