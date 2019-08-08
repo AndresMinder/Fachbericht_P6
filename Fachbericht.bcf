@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<bcf:controlfile version="3.4" bltxversion="3.11" xmlns:bcf="https://sourceforge.net/projects/biblatex">
+<bcf:controlfile version="3.5" bltxversion="3.12" xmlns:bcf="https://sourceforge.net/projects/biblatex">
   <!-- BIBER OPTIONS -->
   <bcf:options component="biber" type="global">
     <bcf:option type="singlevalued">
@@ -98,6 +98,10 @@
       <bcf:value>3</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
+      <bcf:key>maxsortnames</bcf:key>
+      <bcf:value>999</bcf:value>
+    </bcf:option>
+    <bcf:option type="singlevalued">
       <bcf:key>maxitems</bcf:key>
       <bcf:value>3</bcf:value>
     </bcf:option>
@@ -111,6 +115,10 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>mincitenames</bcf:key>
+      <bcf:value>3</bcf:value>
+    </bcf:option>
+    <bcf:option type="singlevalued">
+      <bcf:key>minsortnames</bcf:key>
       <bcf:value>3</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
@@ -354,6 +362,7 @@
     <bcf:option datatype="boolean">labeldateparts</bcf:option>
     <bcf:option datatype="boolean">uniquelist</bcf:option>
     <bcf:option datatype="boolean">uniquename</bcf:option>
+    <bcf:option datatype="boolean">noroman</bcf:option>
     <bcf:option datatype="boolean">singletitle</bcf:option>
     <bcf:option datatype="boolean">uniquetitle</bcf:option>
     <bcf:option datatype="boolean">uniquebaretitle</bcf:option>
@@ -383,6 +392,8 @@
     <bcf:option datatype="integer">minbibnames</bcf:option>
     <bcf:option datatype="integer">maxcitenames</bcf:option>
     <bcf:option datatype="integer">mincitenames</bcf:option>
+    <bcf:option datatype="integer">maxsortnames</bcf:option>
+    <bcf:option datatype="integer">minsortnames</bcf:option>
     <bcf:option datatype="integer">maxitems</bcf:option>
     <bcf:option datatype="integer">minitems</bcf:option>
     <bcf:option datatype="integer">maxalphanames</bcf:option>
@@ -420,6 +431,7 @@
     <bcf:option datatype="boolean">labeldateparts</bcf:option>
     <bcf:option datatype="boolean">uniquelist</bcf:option>
     <bcf:option datatype="boolean">uniquename</bcf:option>
+    <bcf:option datatype="boolean">noroman</bcf:option>
     <bcf:option datatype="boolean">singletitle</bcf:option>
     <bcf:option datatype="boolean">uniquetitle</bcf:option>
     <bcf:option datatype="boolean">uniquebaretitle</bcf:option>
@@ -444,6 +456,8 @@
     <bcf:option datatype="integer">minbibnames</bcf:option>
     <bcf:option datatype="integer">maxcitenames</bcf:option>
     <bcf:option datatype="integer">mincitenames</bcf:option>
+    <bcf:option datatype="integer">maxsortnames</bcf:option>
+    <bcf:option datatype="integer">minsortnames</bcf:option>
     <bcf:option datatype="integer">maxitems</bcf:option>
     <bcf:option datatype="integer">minitems</bcf:option>
     <bcf:option datatype="integer">maxalphanames</bcf:option>
@@ -477,6 +491,7 @@
     <bcf:option datatype="boolean">indexing</bcf:option>
     <bcf:option datatype="boolean">uniquelist</bcf:option>
     <bcf:option datatype="boolean">uniquename</bcf:option>
+    <bcf:option datatype="boolean">noroman</bcf:option>
     <bcf:option datatype="boolean">useprefix</bcf:option>
     <bcf:option datatype="boolean">skipbib</bcf:option>
     <bcf:option datatype="boolean">skipbiblist</bcf:option>
@@ -489,6 +504,8 @@
     <bcf:option datatype="integer">minbibnames</bcf:option>
     <bcf:option datatype="integer">maxcitenames</bcf:option>
     <bcf:option datatype="integer">mincitenames</bcf:option>
+    <bcf:option datatype="integer">maxsortnames</bcf:option>
+    <bcf:option datatype="integer">minsortnames</bcf:option>
     <bcf:option datatype="integer">maxitems</bcf:option>
     <bcf:option datatype="integer">minitems</bcf:option>
     <bcf:option datatype="integer">maxalphanames</bcf:option>
@@ -790,7 +807,7 @@
       <bcf:entrytype skip_output="true">xdata</bcf:entrytype>
     </bcf:entrytypes>
     <bcf:fields>
-      <bcf:field fieldtype="field" datatype="integer">number</bcf:field>
+      <bcf:field fieldtype="field" datatype="integer">sortyear</bcf:field>
       <bcf:field fieldtype="field" datatype="integer">volume</bcf:field>
       <bcf:field fieldtype="field" datatype="integer">volumes</bcf:field>
       <bcf:field fieldtype="field" datatype="literal">abstract</bcf:field>
@@ -831,6 +848,7 @@
       <bcf:field fieldtype="field" datatype="literal">maintitleaddon</bcf:field>
       <bcf:field fieldtype="field" datatype="literal">nameaddon</bcf:field>
       <bcf:field fieldtype="field" datatype="literal">note</bcf:field>
+      <bcf:field fieldtype="field" datatype="literal">number</bcf:field>
       <bcf:field fieldtype="field" datatype="literal">origtitle</bcf:field>
       <bcf:field fieldtype="field" datatype="literal">pagetotal</bcf:field>
       <bcf:field fieldtype="field" datatype="literal">part</bcf:field>
@@ -854,7 +872,6 @@
       <bcf:field fieldtype="field" datatype="literal" label="true">shortjournal</bcf:field>
       <bcf:field fieldtype="field" datatype="literal" label="true">shortseries</bcf:field>
       <bcf:field fieldtype="field" datatype="literal" label="true">shorttitle</bcf:field>
-      <bcf:field fieldtype="field" datatype="literal" skip_output="true">sortyear</bcf:field>
       <bcf:field fieldtype="field" datatype="literal" skip_output="true">sorttitle</bcf:field>
       <bcf:field fieldtype="field" datatype="literal" skip_output="true">sortshorthand</bcf:field>
       <bcf:field fieldtype="field" datatype="literal" skip_output="true">sortkey</bcf:field>
@@ -1493,8 +1510,12 @@
       <bcf:entrytype>online</bcf:entrytype>
       <bcf:field>addendum</bcf:field>
       <bcf:field>author</bcf:field>
+      <bcf:field>doi</bcf:field>
       <bcf:field>editor</bcf:field>
       <bcf:field>editortype</bcf:field>
+      <bcf:field>eprint</bcf:field>
+      <bcf:field>eprintclass</bcf:field>
+      <bcf:field>eprinttype</bcf:field>
       <bcf:field>language</bcf:field>
       <bcf:field>note</bcf:field>
       <bcf:field>organization</bcf:field>
@@ -1975,6 +1996,67 @@
     <bcf:datasource type="file" datatype="bibtex">literature/bibliography.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
+    <bcf:citekey order="1">FTDI</bcf:citekey>
+    <bcf:citekey order="2">arduinoMega</bcf:citekey>
+    <bcf:citekey order="3">arduinoMega</bcf:citekey>
+    <bcf:citekey order="4">arduinoMega</bcf:citekey>
+    <bcf:citekey order="5">arduinoMega</bcf:citekey>
+    <bcf:citekey order="6">DS3231DS</bcf:citekey>
+    <bcf:citekey order="7">DS3231DS</bcf:citekey>
+    <bcf:citekey order="8">DS3231DS</bcf:citekey>
+    <bcf:citekey order="9">DS3231DS</bcf:citekey>
+    <bcf:citekey order="10">DS3231DS</bcf:citekey>
+    <bcf:citekey order="11">AmazonAnemometer</bcf:citekey>
+    <bcf:citekey order="12">AmazonAnemometer</bcf:citekey>
+    <bcf:citekey order="13">ADSkeineAngabe</bcf:citekey>
+    <bcf:citekey order="14">ADSkeineAngabe</bcf:citekey>
+    <bcf:citekey order="15">ADSkeineAngabe</bcf:citekey>
+    <bcf:citekey order="16">ADSkeineAngabe</bcf:citekey>
+    <bcf:citekey order="17">ADSkeineAngabe</bcf:citekey>
+    <bcf:citekey order="18">ADSkeineAngabe</bcf:citekey>
+    <bcf:citekey order="19">windrichtungsgeber</bcf:citekey>
+    <bcf:citekey order="20">windrichtungsgeber</bcf:citekey>
+    <bcf:citekey order="21">Bosch2019</bcf:citekey>
+    <bcf:citekey order="22">Bosch2019</bcf:citekey>
+    <bcf:citekey order="23">Bosch2019</bcf:citekey>
+    <bcf:citekey order="24">Bosch2019</bcf:citekey>
+    <bcf:citekey order="25">Bosch2019</bcf:citekey>
+    <bcf:citekey order="26">Bosch2019</bcf:citekey>
+    <bcf:citekey order="27">Bosch2019</bcf:citekey>
+    <bcf:citekey order="28">Bosch2019</bcf:citekey>
+    <bcf:citekey order="29">Bosch2019</bcf:citekey>
+    <bcf:citekey order="30">Bosch2019</bcf:citekey>
+    <bcf:citekey order="31">Bosch2019</bcf:citekey>
+    <bcf:citekey order="32">Bosch2019</bcf:citekey>
+    <bcf:citekey order="33">TSL2561</bcf:citekey>
+    <bcf:citekey order="34">TSL2561Adafruit</bcf:citekey>
+    <bcf:citekey order="35">TSL2561Adafruit</bcf:citekey>
+    <bcf:citekey order="36">TSL2561</bcf:citekey>
+    <bcf:citekey order="37">TSL2561</bcf:citekey>
+    <bcf:citekey order="38">BME_Breakout</bcf:citekey>
+    <bcf:citekey order="39">BME_Breakout</bcf:citekey>
+    <bcf:citekey order="40">musdkarte</bcf:citekey>
+    <bcf:citekey order="41">musdkarte</bcf:citekey>
+    <bcf:citekey order="42">muSDspez</bcf:citekey>
+    <bcf:citekey order="43">SIM808</bcf:citekey>
+    <bcf:citekey order="44">SIM808</bcf:citekey>
+    <bcf:citekey order="45">SIM808</bcf:citekey>
+    <bcf:citekey order="46">SIM808</bcf:citekey>
+    <bcf:citekey order="47">SIM808</bcf:citekey>
+    <bcf:citekey order="48">MCP73871</bcf:citekey>
+    <bcf:citekey order="49">LM1117</bcf:citekey>
+    <bcf:citekey order="50">SIM808</bcf:citekey>
+    <bcf:citekey order="51">ADSkeineAngabe</bcf:citekey>
+    <bcf:citekey order="52">74HC125</bcf:citekey>
+    <bcf:citekey order="53">arduinoMega</bcf:citekey>
+    <bcf:citekey order="54">FTDI</bcf:citekey>
+    <bcf:citekey order="55">74HC4050</bcf:citekey>
+    <bcf:citekey order="56">Bosch2019</bcf:citekey>
+    <bcf:citekey order="57">TSL2561</bcf:citekey>
+    <bcf:citekey order="58">DS3231DS</bcf:citekey>
+    <bcf:citekey order="59">Solarpanel</bcf:citekey>
+    <bcf:citekey order="60">Solarpanel</bcf:citekey>
+    <bcf:citekey order="61">Solarpanel</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">
