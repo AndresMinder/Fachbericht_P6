@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.11)  7 AUG 2019 12:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.11)  7 AUG 2019 22:30
 entering extended mode
 **./Fachbericht.tex
 (Fachbericht.tex
@@ -3804,9 +3804,6 @@ Package rerunfilecheck Info: File `Fachbericht.out' has not changed.
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package logreq Info: Writing requests to 'Fachbericht.run.xml'.
 \openout1 = `Fachbericht.run.xml'.
 
@@ -3817,50 +3814,39 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 113.
 ### simple group (level 1) entered at line 71 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 53454 strings out of 492946
- 1125168 string characters out of 3126266
- 1818550 words of memory out of 3000000
- 56157 multiletter control sequences out of 15000+200000
+ 53449 strings out of 492946
+ 1125101 string characters out of 3126266
+ 1819254 words of memory out of 3000000
+ 56156 multiletter control sequences out of 15000+200000
  637879 words of font info for 83 fonts, out of 3000000 for 9000
  1143 hyphenation exceptions out of 8191
  76i,12n,85p,9197b,3035s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{chapter*.71} has been referenced bu
-t does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{chapter*.70} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{chapter*.69} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{chapter.9} has been referenced but does not exist, 
-replaced by a fixed one
-
-{C:/Users/mknup/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}
-{C:/Users/mknup/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ts1.enc
-}{C:/Users/mknup/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit
-.enc}{C:/Users/mknup/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ma
-thsy.enc}{C:/Users/mknup/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/l
-m-rm.enc}<C:/Users/mknup/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/l
-m/lmbx10.pfb><C:/Users/mknup/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publ
-ic/lm/lmbx12.pfb><C:/Users/mknup/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
-public/lm/lmmi10.pfb><C:/Users/mknup/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
-pe1/public/lm/lmmi7.pfb><C:/Users/mknup/AppData/Local/Programs/MiKTeX 2.9/fonts
-/type1/public/lm/lmmi8.pfb><C:/Users/mknup/AppData/Local/Programs/MiKTeX 2.9/fo
-nts/type1/public/lm/lmr10.pfb><C:/Users/mknup/AppData/Local/Programs/MiKTeX 2.9
-/fonts/type1/public/lm/lmr12.pfb><C:/Users/mknup/AppData/Local/Programs/MiKTeX 
-2.9/fonts/type1/public/lm/lmr17.pfb><C:/Users/mknup/AppData/Local/Programs/MiKT
-eX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Users/mknup/AppData/Local/Programs/Mi
-KTeX 2.9/fonts/type1/public/lm/lmr9.pfb><C:/Users/mknup/AppData/Local/Programs/
-MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Users/mknup/AppData/Local/Progr
-ams/MiKTeX 2.9/fonts/type1/public/lm/lmro10.pfb><C:/Users/mknup/AppData/Local/P
-rograms/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Users/mknup/AppData/L
-ocal/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Users/mknup/AppDa
-ta/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy8.pfb><C:/Users/mknup/Ap
-pData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb>
-Output written on Fachbericht.pdf (61 pages, 15203497 bytes).
+{C:/Users/mknup/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvi
+ps/lm/lm-ec.enc}{C:/Users/mknup/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvi
+ps/lm/lm-ts1.enc}{C:/Users/mknup/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dv
+ips/lm/lm-mathit.enc}{C:/Users/mknup/AppData/Local/Programs/MiKTeX 2.9/fonts/en
+c/dvips/lm/lm-mathsy.enc}{C:/Users/mknup/AppData/Local/Programs/MiKTeX 2.9/font
+s/enc/dvips/lm/lm-rm.enc}<C:/Users/mknup/AppData/Local/Programs/MiKTeX 2.9/font
+s/type1/public/lm/lmbx10.pfb><C:/Users/mknup/AppData/Local/Programs/MiKTeX 2.9/
+fonts/type1/public/lm/lmbx12.pfb><C:/Users/mknup/AppData/Local/Programs/MiKTeX 
+2.9/fonts/type1/public/lm/lmmi10.pfb><C:/Users/mknup/AppData/Local/Programs/MiK
+TeX 2.9/fonts/type1/public/lm/lmmi7.pfb><C:/Users/mknup/AppData/Local/Programs/
+MiKTeX 2.9/fonts/type1/public/lm/lmmi8.pfb><C:/Users/mknup/AppData/Local/Progra
+ms/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Users/mknup/AppData/Local/Pro
+grams/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Users/mknup/AppData/Local/
+Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr17.pfb><C:/Users/mknup/AppData/Loc
+al/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Users/mknup/AppData/L
+ocal/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr9.pfb><C:/Users/mknup/AppData
+/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Users/mknup/App
+Data/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmro10.pfb><C:/Users/mknup
+/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Users
+/mknup/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/U
+sers/mknup/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy8.pfb><C
+:/Users/mknup/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pf
+b>
+Output written on Fachbericht.pdf (61 pages, 15202631 bytes).
 PDF statistics:
- 963 PDF objects out of 1000 (max. 8388607)
- 220 named destinations out of 1000 (max. 500000)
+ 955 PDF objects out of 1000 (max. 8388607)
+ 216 named destinations out of 1000 (max. 500000)
  520 words of extra memory for PDF output out of 10000 (max. 10000000)
 
